@@ -1,0 +1,114 @@
+.wrapper {
+    height: auto;
+    margin: 0;
+    border-bottom: 1px solid #e9eef2;
+}
+
+.text-box-search {
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    background-color: #e9eef2;
+    padding-left: 3%;
+}
+
+.button-search {
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.button-search, .text-box-search {
+    height: 4rem;
+    max-height: 4rem;
+}
+
+.history-payment-table thead tr th {
+    text-align: center;
+    padding: 15px 0 15px 0;
+    background-color: #2568c0;
+    color: white;
+    font-weight: normal;
+}
+
+.history-payment-table tbody tr td {
+    text-align: center;
+    padding: 15px 0 0 0px;
+    font-weight: normal;
+    color: #2d3c55;
+    font-size: 10pt;
+}
+
+.price {
+    font-size: 11pt;
+    color: #f82727;
+    font-weight: bold;
+}
+
+.bill-detail {
+    color: #708099;
+}
+
+.payment-images {
+    width: 40%;
+}
+
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 1% 0%;
+    font-size: 9.1pt !important;
+    border-radius: 2rem;
+    margin: -4% 0 0 2%;
+    width: 100%;
+}
+
+.page-tittle h2 {
+    color: #2d3c55;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+.pagination-page {
+    float: right;
+    margin: 0 0 8% 0;
+}
+
+@media (min-width: 768px) {
+    .search-form {
+        padding: 3% 1% 5% 1%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .search-form {
+        padding: 3% 1% 5% 1%;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-form {
+        padding: 3% 1% 10% 1%;
+    }
+    .btn-group-sm>.btn, .btn-sm {
+        margin: 0;
+        font-size: 9pt !important;
+        padding: 1% 7%;
+    }
+    .table-responsive {
+        border: none !important;
+    }
+    .history-payment-table {
+        border: none;
+    }
+    .page-tittle h2 {
+        font-size: 17pt;
+        font-weight: normal;
+        text-align: center;
+    }
+    .history-payment-table tbody tr td {
+        text-align: center;
+    }
+
+    .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
+        white-space: nowrap;
+        padding: 1% 1% 1% 1%;
+    }
+}

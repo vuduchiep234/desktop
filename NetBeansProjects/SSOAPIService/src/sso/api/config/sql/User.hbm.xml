@@ -1,0 +1,77 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+  <class name="sso.api.model.User" table="NguoiDung">
+    
+      <meta attribute = "class-description">
+         This class contains the sesion detail. 
+      </meta>  
+      
+    <id name = "id" type = "int" column = "id">
+         <generator class="native"/>
+    </id>
+    <property name="tenDangNhap" type="java.lang.String" unique="true">
+      <column name="tenDangNhap"/>
+    </property>
+    <property name="matKhau" type="java.lang.String">
+      <column name="matKhau"/>
+    </property> 
+    <property name="hoVaTen" type="java.lang.String">
+      <column name="hoVaTen"/>
+    </property>
+    <property name="gioiTinh" type="java.lang.String">
+      <column name="gioiTinh"/>
+    </property>
+     <property name="ngaySinh" type="java.lang.String">
+      <column name="ngaySinh"/>
+    </property>
+    <property name="danToc" type="java.lang.String">
+      <column name="danToc"/>
+    </property>
+     <property name="quocTich" type="java.lang.String">
+      <column name="quocTich"/>
+    </property>
+    <property name="loaiGiayTo" type="int">
+      <column name="loaiGiayTo"/>
+    </property>
+    <property name="soGiayTo" type="java.lang.String">
+      <column name="soGiayTo"/>
+    </property>
+    <property name="ngayCapGiayTo" type="java.lang.String">
+      <column name="ngayCapGiayTo"/>
+    </property>
+    <property name="noiCapGiayTo" type="java.lang.String">
+      <column name="noiCapGiayTo"/>
+    </property>
+    <property name="hoKhauThuongTru" type="java.lang.String">
+      <column name="hoKhauThuongTru"/>
+    </property>
+    <property name="email" type="java.lang.String">
+      <column name="email"/>
+    </property>
+    <property name="soDienThoai" type="java.lang.String">
+      <column name="soDienThoai"/>
+    </property>
+    <property name="soNha" type="java.lang.String">
+      <column name="soNha"/>
+    </property>
+    <property name="tenHuyen" type="java.lang.String">
+      <column name="tenHuyen"/>
+    </property>
+    <property name="tenPhuong" type="java.lang.String">
+      <column name="tenPhuong"/>
+    </property>
+    <property name="tenDuong" type="java.lang.String">
+      <column name="tenDuong"/>
+    </property>
+    <property name="diaChiDangKy" type="java.lang.String">
+      <column name="diaChiDangKy"/>
+    </property>
+    <property name="trangThai" type="int">
+      <column name="trangThai"/>
+    </property>
+  </class>
+</hibernate-mapping>

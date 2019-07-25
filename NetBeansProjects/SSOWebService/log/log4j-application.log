@@ -1,0 +1,1203 @@
+2018-12-13 16:07:53 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is /home/anbq/workplace/DIP4/DIPPortalWebService/./conf, name is development.config.ini
+2018-12-13 16:07:53 DEBUG ConfigurationUtils:523 - Loading configuration from the path /home/anbq/workplace/DIP4/DIPPortalWebService/./conf/development.config.ini
+2018-12-13 16:08:47 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is /home/anbq/workplace/DIP4/DIPPortalWebService/./conf, name is development.config.ini
+2018-12-13 16:08:47 DEBUG ConfigurationUtils:523 - Loading configuration from the path /home/anbq/workplace/DIP4/DIPPortalWebService/./conf/development.config.ini
+2018-12-13 16:08:47 INFO  ServiceDaemon:56 - Create Main Calculator
+2018-12-13 16:09:20 DEBUG cache:45 - Couldn't find template in cache for "layout/headMeta.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-13 16:09:20 DEBUG cache:45 - Loading template for "layout/headMeta.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html"
+2018-12-13 16:09:20 DEBUG cache:45 - Couldn't find template in cache for "layout/topNav.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-13 16:09:20 DEBUG cache:45 - Loading template for "layout/topNav.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html"
+2018-12-13 16:09:20 DEBUG cache:45 - Couldn't find template in cache for "layout/sideBar.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-13 16:09:20 DEBUG cache:45 - Loading template for "layout/sideBar.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html"
+2018-12-13 16:09:20 DEBUG cache:45 - Couldn't find template in cache for "layout/footer.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-13 16:09:20 DEBUG cache:45 - Loading template for "layout/footer.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html"
+2018-12-13 16:09:20 DEBUG cache:45 - Couldn't find template in cache for "dashboard.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en_US.html"): Not found
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en.html"): Not found
+2018-12-13 16:09:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard.html"): Found
+2018-12-13 16:09:20 DEBUG cache:45 - Loading template for "dashboard.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/dashboard.html"
+2018-12-13 16:09:20 DEBUG HttpClient:72 - Java version: 1.8.0_191
+2018-12-13 16:09:20 DEBUG HttpClient:73 - Java vendor: Oracle Corporation
+2018-12-13 16:09:20 DEBUG HttpClient:74 - Java class path: /home/anbq/workplace/DIP4/DIPPortalWebService/lib/clhm-production-1.0.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-codec-1.4.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-collections-3.2.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/Firo_backup.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-configuration-1.6.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-fileupload-1.3.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-httpclient-3.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-io-2.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-lang-2.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-logging-1.1.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-pool-1.5.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpclient-4.0.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpcore-4.0.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpmime-4.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jackson-core-asl-1.9.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jackson-mapper-asl-1.9.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/javax.servlet-api-3.1.0.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-http-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-io-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-security-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-server-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-servlet-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-util-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-webapp-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-xml-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/log4j-1.2.16.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/slf4j-api-1.7.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/mongo-java-driver-3.6.3.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/slf4j-simple-1.6.4.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/websocket-server-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/wmb-lib-json-0.1.v20120706.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/org.json.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/freemarker-2.3.23.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jsoup-1.11.3.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/Firo.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/cron4j-2.2.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/itextpdf-5.0.6.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes
+2018-12-13 16:09:21 DEBUG HttpClient:75 - Operating system name: Linux
+2018-12-13 16:09:21 DEBUG HttpClient:76 - Operating system architecture: amd64
+2018-12-13 16:09:21 DEBUG HttpClient:77 - Operating system version: 4.4.0-139-generic
+2018-12-13 16:09:21 DEBUG HttpClient:82 - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2018-12-13 16:09:21 DEBUG HttpClient:82 - SunRsaSign 1.8: Sun RSA signature provider
+2018-12-13 16:09:21 DEBUG HttpClient:82 - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2018-12-13 16:09:21 DEBUG HttpClient:82 - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2018-12-13 16:09:21 DEBUG HttpClient:82 - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2018-12-13 16:09:21 DEBUG HttpClient:82 - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2018-12-13 16:09:21 DEBUG HttpClient:82 - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2018-12-13 16:09:21 DEBUG HttpClient:82 - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2018-12-13 16:09:21 DEBUG HttpClient:82 - SunPCSC 1.8: Sun PC/SC provider
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.version = HTTP/1.1
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.cookie-policy = default
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.element-charset = US-ASCII
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = ISO-8859-1
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@71384ccf
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@79bd374c
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:09:21 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:09:21 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:09:21 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:09:21 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:09:21 GMT[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:09:21 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:09:21 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:09:20 ICT 2018"}]}}"
+2018-12-13 16:09:21 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:09:21 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:09:21 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@7035d46d
+2018-12-13 16:09:21 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:09:21 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:09:21 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:09:21 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:09:21 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:09:21 GMT[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:09:21 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:09:21 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:09:21 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:09:20 ICT 2018"}}"
+2018-12-13 16:09:21 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:09:21 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:09:21 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:09:24 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:24 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:24 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:24 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:24 DEBUG cache:45 - Couldn't find template in cache for "login.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:09:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("login_en_US.html"): Not found
+2018-12-13 16:09:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("login_en.html"): Not found
+2018-12-13 16:09:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("login.html"): Found
+2018-12-13 16:09:24 DEBUG cache:45 - Loading template for "login.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/login.html"
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-13 16:09:46 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html hasn't changed.
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-13 16:09:46 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html hasn't changed.
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-13 16:09:46 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html hasn't changed.
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-13 16:09:46 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html hasn't changed.
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en_US.html"): Not found
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en.html"): Not found
+2018-12-13 16:09:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard.html"): Found
+2018-12-13 16:09:46 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/dashboard.html hasn't changed.
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@3989be4c
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:09:47 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:09:47 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:09:47 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@64092407
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:09:47 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:09:47 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:09:47 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:09:47 GMT[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:09:47 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:09:47 ICT 2018"}]}}"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:09:47 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:09:47 GMT[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:09:47 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:09:47 ICT 2018"}}"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:09:47 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@4ae62c95
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:09:47 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:09:47 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:09:47 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@3db63da5
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:09:47 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:09:47 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:09:47 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:09:47 GMT[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:09:47 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:09:47 ICT 2018"}]}}"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:09:47 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:09:47 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:09:47 GMT[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:09:47 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:09:47 ICT 2018"}}"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:09:47 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@5fa7e09f
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:09:47 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:09:47 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:09:47 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@30ba5a8f
+2018-12-13 16:09:47 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:09:47 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:09:47 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:09:47 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:09:47 GMT[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:09:47 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:09:47 ICT 2018"}}"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:09:47 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:09:47 GMT[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:09:47 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:09:47 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:09:47 ICT 2018"}]}}"
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:09:47 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:09:47 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:47 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:09:48 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@62a78fa8
+2018-12-13 16:09:48 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:09:48 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@796bf65a
+2018-12-13 16:09:48 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:09:48 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:09:48 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:09:48 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:09:48 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:09:48 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:09:48 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:09:48 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:09:48 GMT[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:09:48 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:09:48 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:09:48 ICT 2018"}]}}"
+2018-12-13 16:09:48 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:09:48 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:09:48 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:09:48 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:09:48 GMT[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:09:48 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:09:48 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:09:48 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:09:48 ICT 2018"}}"
+2018-12-13 16:09:48 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:09:48 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:09:48 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:14:10 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is /home/anbq/workplace/DIP4/DIPPortalWebService/./conf, name is development.config.ini
+2018-12-13 16:14:10 DEBUG ConfigurationUtils:523 - Loading configuration from the path /home/anbq/workplace/DIP4/DIPPortalWebService/./conf/development.config.ini
+2018-12-13 16:14:14 INFO  ServiceDaemon:56 - Create Main Calculator
+2018-12-13 16:14:17 DEBUG cache:45 - Couldn't find template in cache for "layout/headMeta.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-13 16:14:17 DEBUG cache:45 - Loading template for "layout/headMeta.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html"
+2018-12-13 16:14:17 DEBUG cache:45 - Couldn't find template in cache for "layout/topNav.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-13 16:14:17 DEBUG cache:45 - Loading template for "layout/topNav.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html"
+2018-12-13 16:14:17 DEBUG cache:45 - Couldn't find template in cache for "layout/sideBar.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-13 16:14:17 DEBUG cache:45 - Loading template for "layout/sideBar.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html"
+2018-12-13 16:14:17 DEBUG cache:45 - Couldn't find template in cache for "layout/footer.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-13 16:14:17 DEBUG cache:45 - Loading template for "layout/footer.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html"
+2018-12-13 16:14:17 DEBUG cache:45 - Couldn't find template in cache for "dashboard.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en_US.html"): Not found
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en.html"): Not found
+2018-12-13 16:14:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard.html"): Found
+2018-12-13 16:14:17 DEBUG cache:45 - Loading template for "dashboard.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/dashboard.html"
+2018-12-13 16:14:17 DEBUG HttpClient:72 - Java version: 1.8.0_191
+2018-12-13 16:14:17 DEBUG HttpClient:73 - Java vendor: Oracle Corporation
+2018-12-13 16:14:17 DEBUG HttpClient:74 - Java class path: /home/anbq/workplace/DIP4/DIPPortalWebService/lib/clhm-production-1.0.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-codec-1.4.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-collections-3.2.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/Firo_backup.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-configuration-1.6.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-fileupload-1.3.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-httpclient-3.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-io-2.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-lang-2.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-logging-1.1.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-pool-1.5.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpclient-4.0.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpcore-4.0.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpmime-4.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jackson-core-asl-1.9.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jackson-mapper-asl-1.9.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/javax.servlet-api-3.1.0.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-http-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-io-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-security-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-server-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-servlet-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-util-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-webapp-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-xml-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/log4j-1.2.16.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/slf4j-api-1.7.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/mongo-java-driver-3.6.3.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/slf4j-simple-1.6.4.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/websocket-server-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/wmb-lib-json-0.1.v20120706.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/org.json.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/freemarker-2.3.23.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jsoup-1.11.3.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/Firo.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/cron4j-2.2.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/itextpdf-5.0.6.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes
+2018-12-13 16:14:17 DEBUG HttpClient:75 - Operating system name: Linux
+2018-12-13 16:14:17 DEBUG HttpClient:76 - Operating system architecture: amd64
+2018-12-13 16:14:17 DEBUG HttpClient:77 - Operating system version: 4.4.0-139-generic
+2018-12-13 16:14:17 DEBUG HttpClient:82 - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2018-12-13 16:14:17 DEBUG HttpClient:82 - SunRsaSign 1.8: Sun RSA signature provider
+2018-12-13 16:14:17 DEBUG HttpClient:82 - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2018-12-13 16:14:17 DEBUG HttpClient:82 - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2018-12-13 16:14:17 DEBUG HttpClient:82 - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2018-12-13 16:14:17 DEBUG HttpClient:82 - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2018-12-13 16:14:17 DEBUG HttpClient:82 - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2018-12-13 16:14:17 DEBUG HttpClient:82 - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2018-12-13 16:14:17 DEBUG HttpClient:82 - SunPCSC 1.8: Sun PC/SC provider
+2018-12-13 16:14:17 DEBUG DefaultHttpParams:151 - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2018-12-13 16:14:17 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.version = HTTP/1.1
+2018-12-13 16:14:17 DEBUG DefaultHttpParams:151 - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2018-12-13 16:14:17 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.cookie-policy = default
+2018-12-13 16:14:17 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.element-charset = US-ASCII
+2018-12-13 16:14:17 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = ISO-8859-1
+2018-12-13 16:14:17 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@3ba486d4
+2018-12-13 16:14:17 DEBUG DefaultHttpParams:151 - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2018-12-13 16:14:17 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@7588ba27
+2018-12-13 16:14:17 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:14:17 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:14:17 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:14:17 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:14:17 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:14:17 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:14:17 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:14:17 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:14:17 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:14:17 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:14:17 GMT[\r][\n]"
+2018-12-13 16:14:17 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:14:17 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:14:17 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:14:17 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:14:17 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:14:17 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:14:17 ICT 2018"}]}}"
+2018-12-13 16:14:17 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:14:17 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:14:17 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:14:26 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@4748313b
+2018-12-13 16:14:26 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:14:26 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:14:26 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:14:26 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:14:26 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:14:26 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:14:26 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:14:26 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:14:26 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:14:26 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:14:26 GMT[\r][\n]"
+2018-12-13 16:14:26 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:14:26 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:14:26 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:14:26 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:14:26 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:14:26 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:14:26 ICT 2018"}}"
+2018-12-13 16:14:26 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:14:26 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:14:26 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:15:23 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is /home/anbq/workplace/DIP4/DIPPortalWebService/./conf, name is development.config.ini
+2018-12-13 16:15:23 DEBUG ConfigurationUtils:523 - Loading configuration from the path /home/anbq/workplace/DIP4/DIPPortalWebService/./conf/development.config.ini
+2018-12-13 16:15:23 INFO  ServiceDaemon:56 - Create Main Calculator
+2018-12-13 16:15:24 DEBUG cache:45 - Couldn't find template in cache for "layout/headMeta.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-13 16:15:24 DEBUG cache:45 - Loading template for "layout/headMeta.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html"
+2018-12-13 16:15:24 DEBUG cache:45 - Couldn't find template in cache for "layout/topNav.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-13 16:15:24 DEBUG cache:45 - Loading template for "layout/topNav.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html"
+2018-12-13 16:15:24 DEBUG cache:45 - Couldn't find template in cache for "layout/sideBar.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-13 16:15:24 DEBUG cache:45 - Loading template for "layout/sideBar.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html"
+2018-12-13 16:15:24 DEBUG cache:45 - Couldn't find template in cache for "layout/footer.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-13 16:15:24 DEBUG cache:45 - Loading template for "layout/footer.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html"
+2018-12-13 16:15:24 DEBUG cache:45 - Couldn't find template in cache for "dashboard.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en_US.html"): Not found
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en.html"): Not found
+2018-12-13 16:15:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard.html"): Found
+2018-12-13 16:15:24 DEBUG cache:45 - Loading template for "dashboard.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/dashboard.html"
+2018-12-13 16:15:24 DEBUG HttpClient:72 - Java version: 1.8.0_191
+2018-12-13 16:15:24 DEBUG HttpClient:73 - Java vendor: Oracle Corporation
+2018-12-13 16:15:24 DEBUG HttpClient:74 - Java class path: /home/anbq/workplace/DIP4/DIPPortalWebService/lib/clhm-production-1.0.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-codec-1.4.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-collections-3.2.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/Firo_backup.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-configuration-1.6.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-fileupload-1.3.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-httpclient-3.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-io-2.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-lang-2.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-logging-1.1.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-pool-1.5.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpclient-4.0.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpcore-4.0.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpmime-4.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jackson-core-asl-1.9.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jackson-mapper-asl-1.9.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/javax.servlet-api-3.1.0.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-http-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-io-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-security-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-server-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-servlet-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-util-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-webapp-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-xml-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/log4j-1.2.16.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/slf4j-api-1.7.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/mongo-java-driver-3.6.3.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/slf4j-simple-1.6.4.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/websocket-server-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/wmb-lib-json-0.1.v20120706.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/org.json.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/freemarker-2.3.23.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jsoup-1.11.3.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/Firo.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/cron4j-2.2.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/itextpdf-5.0.6.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes
+2018-12-13 16:15:24 DEBUG HttpClient:75 - Operating system name: Linux
+2018-12-13 16:15:24 DEBUG HttpClient:76 - Operating system architecture: amd64
+2018-12-13 16:15:24 DEBUG HttpClient:77 - Operating system version: 4.4.0-139-generic
+2018-12-13 16:15:24 DEBUG HttpClient:82 - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2018-12-13 16:15:24 DEBUG HttpClient:82 - SunRsaSign 1.8: Sun RSA signature provider
+2018-12-13 16:15:24 DEBUG HttpClient:82 - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2018-12-13 16:15:24 DEBUG HttpClient:82 - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2018-12-13 16:15:24 DEBUG HttpClient:82 - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2018-12-13 16:15:24 DEBUG HttpClient:82 - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2018-12-13 16:15:24 DEBUG HttpClient:82 - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2018-12-13 16:15:24 DEBUG HttpClient:82 - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2018-12-13 16:15:24 DEBUG HttpClient:82 - SunPCSC 1.8: Sun PC/SC provider
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.version = HTTP/1.1
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.cookie-policy = default
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.element-charset = US-ASCII
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = ISO-8859-1
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@50cc9d07
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@26b9a51f
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:15:24 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:15:24 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:15:24 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:15:24 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:15:24 GMT[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:15:24 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:15:24 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:15:24 ICT 2018"}]}}"
+2018-12-13 16:15:24 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:15:24 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:15:24 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@e3d482d
+2018-12-13 16:15:24 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:15:24 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:15:24 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:15:24 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:15:24 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:15:24 GMT[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:15:24 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:15:24 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:15:24 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:15:24 ICT 2018"}}"
+2018-12-13 16:15:24 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:15:24 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:15:24 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@4ba87efd
+2018-12-13 16:15:25 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:15:25 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:15:25 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:15:25 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:15:25 GMT[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:15:25 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:15:25 ICT 2018"}]}}"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:15:25 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:15:25 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@6bc25292
+2018-12-13 16:15:25 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:15:25 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:15:25 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:15:25 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:15:25 GMT[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:15:25 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:15:25 ICT 2018"}}"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:15:25 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@1a475225
+2018-12-13 16:15:25 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:15:25 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:15:25 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:15:25 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:15:25 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@4acbc07c
+2018-12-13 16:15:25 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:15:25 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:15:25 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:15:25 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:15:25 GMT[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:15:25 GMT[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:15:25 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:15:25 ICT 2018"}}"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:15:25 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:15:25 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:15:25 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:15:25 ICT 2018"}]}}"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:15:25 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:15:25 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@1e78d5b5
+2018-12-13 16:15:25 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:15:25 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:15:25 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:15:25 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:15:25 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:15:25 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:15:26 GMT[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:15:26 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@da8108c
+2018-12-13 16:15:26 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:15:26 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:15:26 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:15:26 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:15:25 ICT 2018"}}"
+2018-12-13 16:15:26 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:15:26 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:15:26 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:15:26 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:15:26 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:15:26 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:15:26 GMT[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:15:26 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:15:26 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:15:26 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:15:25 ICT 2018"}]}}"
+2018-12-13 16:15:26 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:15:26 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:15:26 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:15:26 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-13 16:16:36 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html hasn't changed.
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-13 16:16:36 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html hasn't changed.
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-13 16:16:36 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html hasn't changed.
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-13 16:16:36 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html hasn't changed.
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en_US.html"): Not found
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en.html"): Not found
+2018-12-13 16:16:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard.html"): Found
+2018-12-13 16:16:36 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/dashboard.html hasn't changed.
+2018-12-13 16:16:37 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@53fbe432
+2018-12-13 16:16:37 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:16:37 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:16:37 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@5b7a581e
+2018-12-13 16:16:37 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:16:37 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:16:37 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:16:37 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:16:37 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:16:37 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:16:37 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:16:37 GMT[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:16:37 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:16:37 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:16:36 ICT 2018"}}"
+2018-12-13 16:16:37 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:16:37 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:16:37 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:16:37 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:16:37 GMT[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:16:37 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:16:37 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:16:37 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:16:36 ICT 2018"}]}}"
+2018-12-13 16:16:37 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:16:37 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:16:37 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-13 16:16:48 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html hasn't changed.
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-13 16:16:48 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html hasn't changed.
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-13 16:16:48 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html hasn't changed.
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-13 16:16:48 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html hasn't changed.
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en_US.html"): Not found
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en.html"): Not found
+2018-12-13 16:16:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard.html"): Found
+2018-12-13 16:16:48 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/dashboard.html hasn't changed.
+2018-12-13 16:16:48 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@572544e6
+2018-12-13 16:16:48 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:16:48 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:16:48 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:16:48 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:16:48 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:16:48 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:16:48 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:16:48 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@4a9db322
+2018-12-13 16:16:48 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:16:48 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:16:49 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:16:49 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:16:49 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:16:49 GMT[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:16:49 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:16:49 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:16:48 ICT 2018"}]}}"
+2018-12-13 16:16:49 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:16:49 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:16:49 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:16:49 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:16:49 GMT[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:16:49 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:16:49 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:16:49 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:16:48 ICT 2018"}}"
+2018-12-13 16:16:49 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:16:49 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:16:49 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:16:51 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:16:51 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:16:51 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:16:51 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:16:51 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:16:51 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@777c1e1e
+2018-12-13 16:16:51 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:16:51 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:16:51 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:16:51 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:16:51 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:16:51 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@d28e341
+2018-12-13 16:16:51 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:16:51 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:16:51 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:16:51 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:16:51 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:16:51 GMT[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:16:51 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:16:51 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:16:51 ICT 2018"}]}}"
+2018-12-13 16:16:51 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:16:51 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:16:51 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:16:51 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:16:51 GMT[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:16:51 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:16:51 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:16:51 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:16:51 ICT 2018"}}"
+2018-12-13 16:16:51 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:16:51 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:16:51 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:16:51 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:16:51 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:16:51 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:16:51 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:16:51 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:16:52 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@3078e8c9
+2018-12-13 16:16:52 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:16:52 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@9298566
+2018-12-13 16:16:52 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:16:52 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:16:52 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:16:52 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:16:52 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:16:52 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:16:52 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:16:52 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:16:52 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:16:52 GMT[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:16:52 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:16:52 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:16:51 ICT 2018"}}"
+2018-12-13 16:16:52 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:16:52 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:16:52 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:16:52 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:16:52 GMT[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:16:52 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:16:52 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:16:52 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:16:51 ICT 2018"}]}}"
+2018-12-13 16:16:52 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:16:52 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:16:52 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-13 16:16:55 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html hasn't changed.
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-13 16:16:55 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html hasn't changed.
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-13 16:16:55 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html hasn't changed.
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-13 16:16:55 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html hasn't changed.
+2018-12-13 16:16:55 DEBUG cache:45 - Couldn't find template in cache for "login.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("login_en_US.html"): Not found
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("login_en.html"): Not found
+2018-12-13 16:16:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("login.html"): Found
+2018-12-13 16:16:55 DEBUG cache:45 - Loading template for "login.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/login.html"
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-13 16:17:02 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html hasn't changed.
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-13 16:17:02 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html hasn't changed.
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-13 16:17:02 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html hasn't changed.
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-13 16:17:02 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html hasn't changed.
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en_US.html"): Not found
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en.html"): Not found
+2018-12-13 16:17:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard.html"): Found
+2018-12-13 16:17:02 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/dashboard.html hasn't changed.
+2018-12-13 16:17:03 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@1d34f205
+2018-12-13 16:17:03 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:17:03 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:17:03 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@5138464c
+2018-12-13 16:17:03 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:17:03 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:17:03 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:17:03 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:17:03 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:17:03 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:17:03 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:17:03 GMT[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:17:03 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:17:03 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:17:03 GMT[\r][\n]"
+2018-12-13 16:17:03 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:17:02 ICT 2018"}}"
+2018-12-13 16:17:03 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:17:03 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:17:03 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:17:03 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:17:03 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:17:03 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:17:03 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:17:02 ICT 2018"}]}}"
+2018-12-13 16:17:03 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:17:03 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:17:03 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:17:05 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:17:05 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:17:05 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:17:05 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:17:05 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:17:05 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@6f2c0920
+2018-12-13 16:17:05 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:17:05 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:17:05 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:17:05 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:17:05 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:17:05 GMT[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:17:05 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:17:05 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:17:04 ICT 2018"}]}}"
+2018-12-13 16:17:05 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:17:05 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:17:05 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:17:05 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@655c9b80
+2018-12-13 16:17:05 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:17:05 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:17:05 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:17:05 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:17:05 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:17:05 GMT[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:17:05 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:17:05 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:17:05 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:17:04 ICT 2018"}}"
+2018-12-13 16:17:05 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:17:05 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:17:05 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:17:06 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:17:06 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:17:06 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:17:06 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:17:06 DEBUG cache:45 - "dashboard.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-13 16:17:06 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@726ce979
+2018-12-13 16:17:06 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:17:06 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:17:06 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@6317141a
+2018-12-13 16:17:06 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-13 16:17:06 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-13 16:17:06 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-13 16:17:06 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:17:06 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-13 16:17:06 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-13 16:17:06 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - >> "[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:17:06 GMT[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "Content-Length: 488[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:17:06 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:17:06 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":7,"maxSizeEachDB":[{"totalSize":15006,"count":6,"type":"POSTGRESQL_9_1","percent":85.7},{"totalSize":0,"count":1,"type":"SQLSERVER_2016","percent":14.2}],"topSizeOfDB":[{"size":0,"name":"oke"},{"size":2501,"name":"THUYNT160"},{"size":2501,"name":"eee"},{"size":2501,"name":"as"}],"numberUpdate":"7","totalTags":3,"totalAccounts":3,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Thu Dec 13 16:17:06 ICT 2018"}}"
+2018-12-13 16:17:06 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:17:06 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:17:06 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:17:06 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "Date: Thu, 13 Dec 2018 09:17:06 GMT[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "Content-Length: 216[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-13 16:17:06 DEBUG header:70 - << "[\r][\n]"
+2018-12-13 16:17:06 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-13 16:17:06 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":15006,"lastUpdateTime":"Thu Dec 13 16:17:06 ICT 2018"}]}}"
+2018-12-13 16:17:06 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-13 16:17:06 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-13 16:17:06 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-13 16:17:13 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html hasn't changed.
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-13 16:17:13 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html hasn't changed.
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-13 16:17:13 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html hasn't changed.
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-13 16:17:13 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html hasn't changed.
+2018-12-13 16:17:13 DEBUG cache:45 - Couldn't find template in cache for "accounts.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("accounts_en_US.html"): Not found
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("accounts_en.html"): Not found
+2018-12-13 16:17:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("accounts.html"): Found
+2018-12-13 16:17:13 DEBUG cache:45 - Loading template for "accounts.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/accounts.html"
+2018-12-13 16:17:18 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is /home/anbq/workplace/DIP4/DIPPortalWebService/./conf, name is development.config.ini
+2018-12-13 16:17:19 DEBUG ConfigurationUtils:523 - Loading configuration from the path /home/anbq/workplace/DIP4/DIPPortalWebService/./conf/development.config.ini
+2018-12-13 16:17:19 INFO  ServiceDaemon:56 - Create Main Calculator
+2018-12-13 16:17:19 DEBUG cache:45 - Couldn't find template in cache for "layout/headMeta.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:17:19 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-13 16:17:19 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-13 16:17:19 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-13 16:17:19 DEBUG cache:45 - Loading template for "layout/headMeta.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html"
+2018-12-13 16:17:20 DEBUG cache:45 - Couldn't find template in cache for "layout/topNav.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-13 16:17:20 DEBUG cache:45 - Loading template for "layout/topNav.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html"
+2018-12-13 16:17:20 DEBUG cache:45 - Couldn't find template in cache for "layout/sideBar.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-13 16:17:20 DEBUG cache:45 - Loading template for "layout/sideBar.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html"
+2018-12-13 16:17:20 DEBUG cache:45 - Couldn't find template in cache for "layout/footer.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-13 16:17:20 DEBUG cache:45 - Loading template for "layout/footer.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html"
+2018-12-13 16:17:20 DEBUG cache:45 - Couldn't find template in cache for "accounts.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("accounts_en_US.html"): Not found
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("accounts_en.html"): Not found
+2018-12-13 16:17:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("accounts.html"): Found
+2018-12-13 16:17:20 DEBUG cache:45 - Loading template for "accounts.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/accounts.html"
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-13 16:18:50 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html hasn't changed.
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-13 16:18:50 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html hasn't changed.
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-13 16:18:50 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html hasn't changed.
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-13 16:18:50 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html hasn't changed.
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("accounts_en_US.html"): Not found
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("accounts_en.html"): Not found
+2018-12-13 16:18:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("accounts.html"): Found
+2018-12-13 16:18:50 DEBUG cache:45 - "accounts.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/accounts.html hasn't changed.
+2018-12-14 09:06:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is /home/anbq/workplace/DIP4/DIPPortalWebService/./conf, name is development.config.ini
+2018-12-14 09:06:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path /home/anbq/workplace/DIP4/DIPPortalWebService/./conf/development.config.ini
+2018-12-14 09:06:28 INFO  ServiceDaemon:56 - Create Main Calculator
+2018-12-14 09:06:29 DEBUG cache:45 - Couldn't find template in cache for "layout/headMeta.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-14 09:06:29 DEBUG cache:45 - Loading template for "layout/headMeta.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html"
+2018-12-14 09:06:29 DEBUG cache:45 - Couldn't find template in cache for "layout/topNav.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-14 09:06:29 DEBUG cache:45 - Loading template for "layout/topNav.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html"
+2018-12-14 09:06:29 DEBUG cache:45 - Couldn't find template in cache for "layout/sideBar.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-14 09:06:29 DEBUG cache:45 - Loading template for "layout/sideBar.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html"
+2018-12-14 09:06:29 DEBUG cache:45 - Couldn't find template in cache for "layout/footer.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-14 09:06:29 DEBUG cache:45 - Loading template for "layout/footer.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html"
+2018-12-14 09:06:29 DEBUG cache:45 - Couldn't find template in cache for "datastores.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("datastores_en_US.html"): Not found
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("datastores_en.html"): Not found
+2018-12-14 09:06:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("datastores.html"): Found
+2018-12-14 09:06:29 DEBUG cache:45 - Loading template for "datastores.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/datastores.html"
+2018-12-14 09:06:31 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:31 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:31 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:31 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:31 DEBUG cache:45 - "datastores.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:33 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:33 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:33 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:33 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:33 DEBUG cache:45 - Couldn't find template in cache for "login.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-14 09:06:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("login_en_US.html"): Not found
+2018-12-14 09:06:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("login_en.html"): Not found
+2018-12-14 09:06:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("login.html"): Found
+2018-12-14 09:06:33 DEBUG cache:45 - Loading template for "login.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/login.html"
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en_US.html"): Not found
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta_en.html"): Not found
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/headMeta.html"): Found
+2018-12-14 09:06:43 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/headMeta.html hasn't changed.
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en_US.html"): Not found
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav_en.html"): Not found
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/topNav.html"): Found
+2018-12-14 09:06:43 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/topNav.html hasn't changed.
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en_US.html"): Not found
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar_en.html"): Not found
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/sideBar.html"): Found
+2018-12-14 09:06:43 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/sideBar.html hasn't changed.
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en_US.html"): Not found
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer_en.html"): Not found
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("layout/footer.html"): Found
+2018-12-14 09:06:43 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/layout/footer.html hasn't changed.
+2018-12-14 09:06:43 DEBUG cache:45 - Couldn't find template in cache for "dashboard.html"("en_US", UTF-8, parsed); will try to load it.
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en_US.html"): Not found
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard_en.html"): Not found
+2018-12-14 09:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard.html"): Found
+2018-12-14 09:06:43 DEBUG cache:45 - Loading template for "dashboard.html"("en_US", UTF-8, parsed) from "file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/dashboard.html"
+2018-12-14 09:06:43 DEBUG HttpClient:72 - Java version: 1.8.0_191
+2018-12-14 09:06:43 DEBUG HttpClient:73 - Java vendor: Oracle Corporation
+2018-12-14 09:06:43 DEBUG HttpClient:74 - Java class path: /home/anbq/workplace/DIP4/DIPPortalWebService/lib/clhm-production-1.0.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-codec-1.4.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-collections-3.2.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/Firo_backup.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-configuration-1.6.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-fileupload-1.3.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-httpclient-3.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-io-2.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-lang-2.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-logging-1.1.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/commons-pool-1.5.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpclient-4.0.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpcore-4.0.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/httpmime-4.1.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jackson-core-asl-1.9.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jackson-mapper-asl-1.9.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/javax.servlet-api-3.1.0.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-http-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-io-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-security-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-server-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-servlet-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-util-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-webapp-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jetty-xml-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/log4j-1.2.16.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/slf4j-api-1.7.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/mongo-java-driver-3.6.3.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/slf4j-simple-1.6.4.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/websocket-server-9.3.6.v20151106.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/wmb-lib-json-0.1.v20120706.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/org.json.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/freemarker-2.3.23.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/jsoup-1.11.3.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/Firo.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/cron4j-2.2.5.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/lib/itextpdf-5.0.6.jar:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes
+2018-12-14 09:06:43 DEBUG HttpClient:75 - Operating system name: Linux
+2018-12-14 09:06:43 DEBUG HttpClient:76 - Operating system architecture: amd64
+2018-12-14 09:06:43 DEBUG HttpClient:77 - Operating system version: 4.4.0-139-generic
+2018-12-14 09:06:43 ERROR AccountService:274 - dip.portal.services.AccountService[getByUsername]-org.jsoup.HttpStatusException: HTTP error fetching URL. Status=404, URL=http://10.14.142.5:2018/portal-api/account/name/admin@fpt.com.vn
+2018-12-14 09:06:43 DEBUG HttpClient:82 - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2018-12-14 09:06:43 DEBUG HttpClient:82 - SunRsaSign 1.8: Sun RSA signature provider
+2018-12-14 09:06:43 DEBUG HttpClient:82 - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2018-12-14 09:06:43 DEBUG HttpClient:82 - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2018-12-14 09:06:43 DEBUG HttpClient:82 - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2018-12-14 09:06:43 DEBUG HttpClient:82 - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2018-12-14 09:06:43 DEBUG HttpClient:82 - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2018-12-14 09:06:43 DEBUG HttpClient:82 - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2018-12-14 09:06:43 DEBUG HttpClient:82 - SunPCSC 1.8: Sun PC/SC provider
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.version = HTTP/1.1
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.cookie-policy = default
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.element-charset = US-ASCII
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = ISO-8859-1
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@375f2273
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@43b9b2f1
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@78c80259
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-14 09:06:43 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = UTF-8
+2018-12-14 09:06:43 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-14 09:06:43 DEBUG HttpConnection:692 - Open connection to 10.14.142.5:2018
+2018-12-14 09:06:43 DEBUG header:70 - >> "GET /dashboardinfo HTTP/1.1[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - >> "GET /totalSizeDataStore?endDate=&startDate= HTTP/1.1[\r][\n]"
+2018-12-14 09:06:43 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-14 09:06:43 DEBUG HttpMethodBase:1352 - Adding Host request header
+2018-12-14 09:06:43 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - >> "Host: 10.14.142.5:2018[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - >> "[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - >> "[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "Date: Fri, 14 Dec 2018 02:06:43 GMT[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "Content-Length: 294[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "[\r][\n]"
+2018-12-14 09:06:43 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-14 09:06:43 DEBUG header:70 - << "Date: Fri, 14 Dec 2018 02:06:43 GMT[\r][\n]"
+2018-12-14 09:06:43 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"totalSizeOfDataStore":[{"totalsize":0,"lastUpdateTime":"Wed Dec 12 16:52:00 ICT 2018"},{"totalsize":1847618376,"lastUpdateTime":"Thu Dec 13 23:59:59 ICT 2018"},{"totalsize":1847620877,"lastUpdateTime":"Fri Dec 14 09:06:43 ICT 2018"}]}}"
+2018-12-14 09:06:43 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-14 09:06:43 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-14 09:06:43 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-14 09:06:43 DEBUG header:70 - << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "Content-Length: 504[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "Server: Jetty(9.3.6.v20151106)[\r][\n]"
+2018-12-14 09:06:43 DEBUG header:70 - << "[\r][\n]"
+2018-12-14 09:06:43 DEBUG HttpMethodBase:685 - Buffering response body
+2018-12-14 09:06:43 DEBUG content:84 - << "{"error_code":"200","error_message":"Successful", "data":{"numberOfDB":15,"maxSizeEachDB":[{"totalSize":30012,"count":12,"type":"POSTGRESQL_9_1","percent":80},{"totalSize":1847590865,"count":3,"type":"SQLSERVER_2012","percent":20}],"topSizeOfDB":[{"size":2501,"name":"thuyntoi"},{"size":2501,"name":"qwe"},{"size":2501,"name":"testaaa"},{"size":2501,"name":"bcc"}],"numberUpdate":"15","totalTags":11,"totalAccounts":4,"datasets":[],"percentUpdate":"100%","lastUpdateTime":"Fri Dec 14 09:06:43 ICT 2018"}}"
+2018-12-14 09:06:43 DEBUG HttpMethodBase:1024 - Resorting to protocol version default close connection policy
+2018-12-14 09:06:43 DEBUG HttpMethodBase:1028 - Should NOT close connection, using HTTP/1.1
+2018-12-14 09:06:43 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2018-12-14 09:06:47 DEBUG cache:45 - "layout/headMeta.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:47 DEBUG cache:45 - "layout/topNav.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:47 DEBUG cache:45 - "layout/sideBar.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:47 DEBUG cache:45 - "layout/footer.html"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-12-14 09:06:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("datastores_en_US.html"): Not found
+2018-12-14 09:06:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("datastores_en.html"): Not found
+2018-12-14 09:06:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("datastores.html"): Found
+2018-12-14 09:06:47 DEBUG cache:45 - "datastores.html"("en_US", UTF-8, parsed): using cached since file:/home/anbq/workplace/DIP4/DIPPortalWebService/build/classes/dip/portal/view/datastores.html hasn't changed.
+2018-12-14 09:06:47 ERROR AccountService:274 - dip.portal.services.AccountService[getByUsername]-org.jsoup.HttpStatusException: HTTP error fetching URL. Status=404, URL=http://10.14.142.5:2018/portal-api/account/name/admin@fpt.com.vn
+2018-12-14 09:10:11 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is /home/anbq/workplace/DIP4/DIPPortalWebService/./conf, name is development.config.ini
+2018-12-14 09:10:11 DEBUG ConfigurationUtils:523 - Loading configuration from the path /home/anbq/workplace/DIP4/DIPPortalWebService/./conf/development.config.ini
+2018-12-14 09:10:11 INFO  ServiceDaemon:56 - Create Main Calculator

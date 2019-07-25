@@ -1,0 +1,291 @@
+/* step-1 ------------------------------------------------------------------------------------ 
+--------------------------------------------------------------------------------------------*/
+
+.wrapper-step1 {
+    margin: -1% 0 0 0;
+    padding: 10% 5%;
+    border-bottom: 1px solid #e2ecf0;
+    height: auto;
+    background-image: url(../images/hompage/step-1/back-ground-step-2.jpg);
+    background-size: 100% 100%;
+}
+
+.right-layout-step1 {
+    text-align: center;
+    border-right: 1px solid #e2ecf0;
+    padding: 0 0 0 0;
+}
+
+.right-layout-step1 h3 {
+    color: red;
+    font-size: 45pt;
+    font-weight: bold;
+}
+
+.right-layout-step1 p {
+    color: black;
+    font-size: 29pt;
+    font-weight: bold;
+}
+
+.right-layout-step1 .payment-image {
+    width: 35%;
+    margin: 0% 0% 0 0%;
+}
+
+.left-layout-step1 {
+    text-align: center;
+}
+
+.left-layout-step1 .notify {
+    color: black;
+    font-size: 10pt;
+    padding: 1rem 0 2rem 0;
+}
+
+.left-layout-step1 .enter-number {
+    width: 30%;
+    margin: 0px 0 0 0%;
+}
+
+.left-layout-step1 .input-number input {
+    border-radius: 3rem;
+    background-color: #e2ecf0;
+    font-size: 100%;
+    text-align: center;
+}
+
+.left-layout-step1 .form-control {
+    height: 4.5rem;
+}
+
+.left-layout-step1 .submit-buttton button {
+    background-image: linear-gradient(#60aef9, #2f71d4);
+    border-radius: 2rem;
+    font-size: 100%;
+    color: white;
+    margin: -7px 0 0 0;
+}
+
+.left-layout-step1 .input-number, .left-layout-step1 .submit-buttton {
+    padding: 0 10%;
+}
+
+@media (max-width: 760px) {
+    .wrapper-step1 {
+        margin: -5% 0 0 0;
+        border-bottom: none;
+    }
+    .right-layout-step1 {
+        text-align: center;
+    }
+    .right-layout-step1 h3, .right-layout-step1 p {
+        margin: 0;
+    }
+    .right-layout-step1 .payment-image {
+        width: 50%;
+        margin: 0% 0% 0 0%;
+    }
+    .left-layout-step1 .notify {
+        padding: 1% 0 2% 0%;
+    }
+    .left-layout-step1 {
+        text-align: center;
+    }
+    .left-layout-step1 .enter-number {
+        width: 70%;
+        margin: 10% 0 0 0%;
+    }
+    .right-layout-step1 {
+        border-right: none;
+    }
+    .left-layout-step1 .input-number, .left-layout-step1 .submit-buttton {
+        padding: 0;
+    }
+    .right-layout-step1 h3 {
+        font-size: 29pt;
+    }
+    .right-layout-step1 p {
+        font-size: 17pt;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 766px) {
+    .left-layout-step1 .enter-number {
+        width: 35%;
+        margin: 0 0 0 0%;
+    }
+    .right-layout-step1 p {
+        font-size: 19pt;
+        margin: 0;
+    }
+    .right-layout-step1 .payment-image {
+        margin: 0% 0% 10% 0%;
+        width: 50%;
+    }
+    .right-layout-step1 h3 {
+        font-size: 30pt;
+    }
+    .left-layout-step1 .input-number, .left-layout-step1 .submit-buttton {
+        padding: 0 5%;
+    }
+}
+
+/* step-1 ------------------------------------------------------------------------------------ 
+--------------------------------------------------------------------------------------------*/
+
+/* =========================================================================================
+==============================================================================================*/
+
+/* step-4 ------------------------------------------------------------------------------------ 
+--------------------------------------------------------------------------------------------*/
+
+.wrapper-step4 {
+    height: auto;
+    margin: -1% 0 0 0;
+    background-image: url(../images/hompage/step-2/back-ground-step-2.jpg);
+    background-size: 100% 100%;
+}
+
+.wrapper-step4 .row-layout {
+    text-align: center;
+    padding: 3rem 0 5rem 0;
+}
+
+.wrapper-step4 .row-layout h2 {
+    color: #f23351;
+    font-size: 30.8pt;
+}
+
+.wrapper-step4 .row-layout h3 {
+    color: #2d3c55;
+    font-size: 22.4pt;
+}
+
+.wrapper-step4 .row-layout p {
+    color: #708099;
+    font-size: 10.5pt;
+}
+
+.wrapper-step4 .image-failed-notify {
+    width: 200px;
+    height: 114px;
+    margin: 15% 0 5% 0;
+}
+
+.wrapper-step4 .rules {
+    height: 1px;
+    width: 70%;
+    max-width: 100%;
+    background: #708099;
+    margin: 4% 0 4% 14%;
+}
+
+.wrapper-step4 .back-index {
+    border-radius: 2rem;
+    margin: 8% 0 20% 0;
+    font-size: 11.2pt;
+}
+
+.wrapper-step4 .btn {
+    width: 30.2rem !important;
+    height: 40px !important;
+    background-image: linear-gradient(#60aef9, #2f71d4);
+    border: 0px;
+}
+
+@media (min-width: 768px) {
+    .wrapper-step4 .row-layout h3 {
+        font-size: 20.4pt;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-step4 .row-layout h3 {
+        font-size: 130%;
+    }
+    .wrapper-step4 {
+        margin: -5% 0 0 0;
+    }
+}
+
+/* step-4 ------------------------------------------------------------------------------------ 
+--------------------------------------------------------------------------------------------*/
+
+/* =========================================================================================
+==============================================================================================*/
+
+/* tra-cuu-thong-tin ------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------*/
+
+.wrapper-information {
+    height: auto;
+    margin: 0;
+}
+
+.wrapper-information .row-layout {
+    text-align: center;
+}
+
+.wrapper-information .image-layout img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.wrapper-information .text-layout h2 {
+    font-size: 24pt;
+    color: #f23351;
+    font-weight: bold;
+    padding: 0 0 0 0;
+}
+
+.wrapper-information .text-layout p {
+    font-size: 22.4pt;
+    color: #2d3c55;
+}
+
+.wrapper-information .form-control {
+    border-radius: 2rem !important;
+    text-align: center;
+    height: 45px !important;
+    max-height: 45px;
+    margin: -1% 0;
+}
+
+.wrapper-information .search-button {
+    background-image: linear-gradient(#60aef9, #2f71d4);
+    color: white;
+    font-size: 11.2pt;
+}
+
+.wrapper-information .select-box {
+    background-color: #e9eef2;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .wrapper-information .row-layout {
+        margin: 10% 0 10% 0;
+    }
+    .wrapper-information .top-layout {
+        margin: 0 0 8% 0;
+    }
+    .wrapper-information .text-layout h2 {
+        padding: 80px 0 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-information .row-layout {
+        margin: 0% 0 10% 0;
+    }
+    .wrapper-information .text-layout p {
+        font-size: 11pt;
+    }
+    .wrapper-information .top-layout {
+        margin: 0 0 8% 0;
+    }
+}
+
+/* tra-cuu-thong-tin ------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------*/

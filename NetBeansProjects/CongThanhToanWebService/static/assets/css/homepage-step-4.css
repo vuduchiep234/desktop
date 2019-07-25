@@ -1,0 +1,65 @@
+.wrapper {
+    height: auto;
+    margin: -3% 0 0 0;
+    background-image: url(../images/hompage/step-2/back-ground-step-2.jpg);
+    background-size: 100% 100%;
+}
+
+.row-layout {
+    text-align: center;
+}
+
+.row-layout h2 {
+    color: #f23351;
+    font-size: 30.8pt;
+}
+
+.row-layout h3 {
+    color: #2d3c55;
+    font-size: 22.4pt;
+}
+
+.row-layout p {
+    color: #708099;
+    font-size: 10.5pt;
+}
+
+.image-failed-notify {
+    width: 200px;
+    height: 114px;
+    margin: 15% 0 5% 0;
+}
+
+.rules {
+    height: 1px;
+    width: 70%;
+    max-width: 100%;
+    background: #708099;
+    margin: 4% 0 4% 14%;
+}
+
+.back-index {
+    border-radius: 2rem;
+    margin: 8% 0 20% 0;
+    font-size: 11.2pt;
+}
+
+.btn {
+    width: 30.2rem !important;
+    height: 40px !important;
+}
+
+@media (min-width: 768px) {
+    .row-layout h3 {
+        font-size: 20.4pt;
+    }
+}
+
+@media (max-width: 768px) {
+    .row-layout h3 {
+        font-size: 130%;
+    }
+    .wrapper {
+        margin: -5% 0 0 0;
+    }
+}

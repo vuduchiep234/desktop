@@ -1,0 +1,84 @@
+<style>
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #af0006;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+width: 100%;
+}
+.dropdown-menu a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.has-sub:hover .dropdown-menu {
+  display: block;
+}
+.has-sub .dropdown-menu a {
+    padding: 10px !important;
+}
+</style>
+<section id="nav-wrap">
+            <nav class="navbar navbar-inverse navbar-expand-sm p-0" id="my-nav">
+                <div class="container">
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse no-padding" id="main-menu">
+                        <ul class="nav navbar-nav menu-item ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/">
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown has-sub">
+                                <a class="nav-link dropdown-toggle" href="/payment/timKiem/hoaDon?loai=thuTucHanhChinh" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Thanh toán phí thủ tục hành chính
+                                </a>
+                                <ul class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Danh sách đơn vị tham gia</a></li>
+                                  <li><a class="dropdown-item" href="#">Các bước thực hiện</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown has-sub">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Thanh toán khác
+                                </a>
+                                <ul class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="/payment/timKiem/hoaDon?loai=tienDien">Điện</a></li>
+                                  <li><a class="dropdown-item" href="/payment/timKiem/hoaDon?loai=tienNuoc">Nước</a></li>
+                                  <li><a class="dropdown-item" href="/payment/timKiem/hoaDon?loai=thuTucHanhChinh">Thủ tục hành chính</a></li>
+                                  <li><a class="dropdown-item" href="/payment/timKiem/hoaDon?loai=viPhamHanhChinh">Vi phạm hành chính</a></li>
+                                  <li><a class="dropdown-item" href="/payment/timKiem/hoaDon?loai=napTienDienThoai">Nộp tiền điện thoại</a></li>
+                                </ul>
+                            </li>
+<<<<<<< working copy
+                            <li class="dropdown ">
+                                <a href="#">
+                                    Trợ giúp
+                                </a>
+                            </li>
+                            <li class="dropdown ">
+                                <a href="#">
+                                    Liên hệ
+=======
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" >
+                                   Trợ giúp
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" >
+                                   Liên hệ
+>>>>>>> destination
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </section>

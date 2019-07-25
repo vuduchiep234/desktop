@@ -1,0 +1,129 @@
+.wrapper {
+    margin: -5% 0 0 0;
+    padding: 10% 5%;
+    border-bottom: 1px solid #e2ecf0;
+    height: auto;
+    background-image: url(../images/hompage/step-1/back-ground-step-2.jpg);
+    background-size: 100% 100%;
+}
+
+.right-layout {
+    text-align: center;
+    border-right: 1px solid #e2ecf0;
+    padding: 0 0 0 0;
+}
+
+.right-layout h3 {
+    color: red;
+    font-size: 50pt;
+    font-weight: bold;
+}
+
+.right-layout p {
+    color: black;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+.payment-image {
+    width: 35%;
+    margin: 0% 0% 0 0%;
+}
+
+.left-layout {
+    text-align: center;
+}
+
+.notify {
+    color: black;
+    font-size: 9.8pt;
+    padding: 2% 0 3% 0%;
+}
+
+.enter-number {
+    width: 30%;
+    margin: 0px 0 0 0%;
+}
+
+.input-number input {
+    border-radius: 2rem;
+    background-color: #e2ecf0;
+    font-size: 100%;
+    text-align: center;
+}
+
+.form-control {
+    height: 4rem;
+}
+
+.submit-buttton button {
+    background-image: linear-gradient(#60aef9, #2f71d4);
+    border-radius: 2rem;
+    font-size: 100%;
+    color: white;
+    margin: -7px 0 0 0;
+}
+
+.input-number, .submit-buttton {
+    padding: 0 10%;
+}
+
+@media (max-width: 760px) {
+    .wrapper {
+        margin: -5% 0 0 0;
+        border-bottom: none;
+    }
+    .right-layout {
+        text-align: center;
+    }
+    .right-layout h3, .right-layout p {
+        margin: 0;
+    }
+    .payment-image {
+        width: 50%;
+        margin: 0% 0% 0 0%;
+    }
+    .notify {
+        padding: 1% 0 2% 0%;
+    }
+    .left-layout {
+        text-align: center;
+    }
+    .enter-number {
+        width: 70%;
+        margin: 10% 0 0 0%;
+    }
+    .right-layout {
+        border-right: none;
+    }
+    .input-number, .submit-buttton {
+        padding: 0;
+    }
+    .right-layout h3 {
+        font-size: 29pt;
+    }
+    .right-layout p {
+        font-size: 17pt;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 766px) {
+    .payment-image {
+        width: 50%;
+        margin: 0 0 0 0%;
+    }
+    .enter-number {
+        width: 35%;
+        margin: 0 0 0 0%;
+    }
+    .right-layout p {
+        font-size: 19pt;
+        margin: 0;
+    }
+    .payment-image {
+        margin: 0% 0% 10% 0%;
+    }
+    .right-layout h3 {
+        font-size: 30pt;
+    }
+}

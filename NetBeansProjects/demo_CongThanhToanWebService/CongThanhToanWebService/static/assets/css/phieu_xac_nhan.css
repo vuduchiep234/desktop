@@ -1,0 +1,124 @@
+/*================= USE FOR ALL CHILD PAGE =================*/
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-Medium;
+}
+
+body {
+    background: url("../image/bg.png") #080f1a no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    background: rgba(5, 9, 15, .4);
+    min-height: 50px;
+}
+
+header h4 {
+    color: #fff;
+    font-family: Roboto-Bold;
+    margin: 0;
+}
+
+.yellow {
+    color: #fff712;
+}
+
+footer {
+    background: #ececec;
+    color: #949494;
+    display: table;
+    width: 100%;
+}
+
+footer div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main-content {
+    background: #fff;
+    min-height: 800px;
+}
+
+/*=========== ONLY PHIEU_XAC_NHAN ============*/
+.main-content .container {
+    padding-top: 5.5rem;
+}
+
+.document-parent {
+    border: 1px solid #e1e1e1;
+    padding: 4rem 5rem;
+}
+
+.document-parent hr {
+    border: 2px solid #c4c4c4;
+    width: 8%;
+}
+
+.detail .row {
+    margin-bottom: 1.3rem;
+}
+
+.detail .row:nth-child(4) {
+    margin-bottom: 1rem;
+}
+
+.value {
+    font-family: Roboto-Regular;
+}
+
+.amount {
+    font-family: Roboto-Regular;
+    font-weight: bolder;
+    color: #f82727;
+    margin: 0;
+}
+
+.amount h3 {
+    margin: 0;
+}
+
+.paid-status {
+    font-family: Roboto-Regular;
+    color: #fff;
+    background: #47d820;
+    width: fit-content;
+    padding: 2px 22px;
+}
+
+.unpaid-status {
+    font-family: Roboto-Regular;
+    color: #fff;
+    background: #ee002e;
+    width: fit-content;
+    padding: 2px 22px;
+}
+
+.btn-done {
+    background: #284c86;
+    color: #fff;
+    border-radius: unset;
+    float: right;
+    padding: 0.5rem 1.9rem;
+    margin-bottom: 12rem;
+}

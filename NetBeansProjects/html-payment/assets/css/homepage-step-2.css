@@ -1,0 +1,220 @@
+.wrapper {
+    height: auto;
+    margin: -3% 0 0 0;
+    background-image: url(../images/hompage/step-2/back-ground-step-2.jpg);
+    background-size: 100% 100%;
+}
+
+.left-tittle p {
+    font-size: 11pt;
+    color: #1f2830;
+}
+
+.left-tittle p a {
+    color: #7c8aa1;
+}
+
+.name-member h4 {
+    color: #3b83e1;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.payment-tittle h3 {
+    color: #2d3c55;
+    font-weight: bold;
+    font-size: 21pt;
+    padding: 3rem 0 0 1rem;
+}
+
+.detail-member-line {
+    height: 1px;
+    background-color: #7c8aa1;
+    margin: 1rem 0rem;
+    padding: 0;
+}
+
+.back-payment button {
+    margin: 2% 0% 10% 0;
+    width: 160px;
+    height: 40px;
+    background-image: linear-gradient(#60aef9, #2f71d4);
+    color: white;
+}
+
+.detail-member {
+    background: white;
+    max-height: 33rem;
+}
+
+.avatar-member img {
+    height: 100%;
+    max-height: 100%;
+}
+
+.payment-tittle {
+    padding: 3% 0 0 0
+}
+
+.back-payment button {
+    float: right;
+}
+
+.left-tittle {
+    padding: 1rem 0 0 1.5rem;
+}
+
+/* css table */
+
+thead, tbody, tr, td, th {
+    display: block;
+}
+
+tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+tbody {
+    height: 27rem;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+thead th {
+    height: 6rem;
+}
+
+tbody td, thead th {
+    width: 25%;
+    float: left;
+    height: 6rem;
+}
+
+.btn {
+    border-radius: 2rem !important;
+    border: 0px !important;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    text-align: center !important;
+    font-size: 9.1pt !important;
+}
+
+.payment-table {
+    background: white;
+}
+
+.payment-table tbody tr td {
+    padding: 1.6rem 0 0 1rem;
+    text-align: center;
+}
+
+.payment-table thead tr th {
+    text-align: center;
+    background-color: #2568c0;
+    color: white;
+    font-weight: normal;
+    padding: 2rem 0 0 0;
+}
+
+.payment-table-status {
+    width: 75%;
+}
+
+.payment-table-action {
+    width: 60%;
+}
+
+.payment-button {
+    color: #2568c0;
+}
+
+.payment-button:hover {
+    background: #3b83e1;
+    color: white;
+}
+
+.price {
+    font-size: 11.2pt;
+    color: #f82727;
+    font-weight: bold;
+}
+
+.bill-name {
+    color: #708099;
+    font-size: 10.7pt;
+}
+
+/* css table */
+
+@media (min-width: 1200px) {
+    .detail-member {
+        height: 33rem;
+        padding: 2rem 1rem 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 991px) {
+    .name-member h4 {
+        font-size: 16pt;
+    }
+    .left-tittle p {
+        font-size: 9pt;
+    }
+    .detail-member {
+        height: 33rem;
+        padding: 2rem 1rem 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 762px) {
+    .detail-member {
+        padding: 2rem 2rem;
+        height: auto;
+        margin: 2rem 0;
+    }
+    .left-tittle {
+        padding: 1rem 2rem;
+    }
+    .avatar-member {
+        text-align: center;
+    }
+    .payment-tittle h3 {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        margin: -5% 0 0 0;
+    }
+    .detail-member {
+        padding: 2rem 2rem;
+        height: auto;
+        margin: 2rem 0;
+    }
+    .name-member h4 {
+        font-size: 16pt;
+    }
+    .payment-tittle {
+        text-align: center;
+    }
+    .back-payment {
+        float: none;
+        text-align: center;
+    }
+    .table-responsive {
+        border: none !important;
+    }
+    .payment-table-status {
+        width: 100%;
+        padding: 5px 0;
+    }
+    .payment-table-action {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: OpenSans-Italic;
+    src: url(../fonts/OpenSans-Italic.ttf) format('truetype');
+}
+
+.btn-ok {
+    background: #284c86;
+    color: #fff;
+    padding: 0.7rem 4rem;
+}
+.icon-status-success{
+    margin-left: 2rem;
+}
+.btn-ok:hover {
+    background: #224173;
+    color: #fff;
+}
+.modal-dialog{
+    max-width: 350px;
+}
+
+.modal-body{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.payment-label{
+    font-family: OpenSans-Italic;
+    color: #747474;
+}
+.payment-status-success{
+    font-family: OpenSans-Bold;
+    color: #284c86;
+    margin-bottom: 4rem;
+}
+.payment-status-failed{
+    font-family: OpenSans-Bold;
+    color: #ee7330;
+    margin-bottom: 4rem;
+}
+.btn-try-again{
+    background: #57ad47;
+    color: #fff;
+    padding: 0.7rem 4rem;
+}
+.btn-try-again:hover{
+    background: #388729;
+    color: #fff;
+}

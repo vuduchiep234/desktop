@@ -1,0 +1,11 @@
+5 [main] INFO firo.staticfiles.StaticFilesConfiguration - External StaticResourceHandler configured with folder = static
+8 [main] WARN firo.staticfiles.StaticFilesFolder - Registering external static files folder [static] as [/home/anbq/workplace/EGOV/Source/DichVuCongWebService/static].
+log4j:WARN No appenders could be found for logger (org.apache.commons.configuration.ConfigurationUtils).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+85 [Thread-1] INFO org.eclipse.jetty.util.log - Logging initialized @310ms
+121 [Thread-1] INFO firo.embeddedserver.jetty.EmbeddedJettyServer - == FIRO has ignited ...
+121 [Thread-1] INFO firo.embeddedserver.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:2000
+124 [Thread-1] INFO org.eclipse.jetty.server.Server - jetty-9.3.6.v20151106
+172 [Thread-1] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@4fe930d6{HTTP/1.1,[http/1.1]}{0.0.0.0:2000}
+172 [Thread-1] INFO org.eclipse.jetty.server.Server - Started @397ms

@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.example.demo_library.service;
+
+import com.example.demo_library.entities.Author;
+import java.util.List;
+
+/**
+ *
+ * @author vuduchiep
+ */
+public interface AuthorService {
+    
+    public Author getAuthor(int id);
+    
+    public Author addAuthor(Author author);
+    
+    public Author updateAuthor(Author author);
+    
+    public void deleteAuthor(int id);
+    
+    public List<Author> getAll();
+}

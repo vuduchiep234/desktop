@@ -1,0 +1,28 @@
+- Factory method là một pattern cho việc khởi tạo đối tượng(thuộc nhóm creational patterns).
+ Pattern này được sinh ra nhằm mục đích khởi tạo đối tượng mà bản thân muốn che giấu class nào được khởi tạo. 
+
+- Về cơ bản thì ta sẽ định nghĩa một interface hoặc Abstract class , các class con sẽ implements nó.
+Tiếp đến mình sẽ tạo một class được xem là FactoryClass, bên trong FactoryClass này mình sẽ có một phương thức
+ giúp chúng ta khởi tạo các Object chúng ta cần.
+
+- Factory method, đầy đủ là Factory method pattern, là thiết kế mẫu hướng đối tượng trong việc thiết kế phần mềm cho máy tính,
+ nhằm giải quyết vấn đề tạo một đối tượng mà không cần thiết chỉ ra một cách chính xác lớp nào sẽ được tạo.
+ Factory method giải quyết vấn đề này bằng cách định nghĩa một phương thức cho việc tạo đối tượng,
+ và các lớp con thừa kế có thể override để chỉ rõ đối tượng nào sẽ được tạo.
+ Nói chung, "factory method" thường được áp dụng cho những phương thức mà nhiệm vụ chính của nó là tạo ra đối tượng
+
+- Tại sao lại phải dùng Factory pattern thay cho việc khởi tạo đối tượng thông thường? Dùng Factory pattern có lợi ích gì?
+--> Factory pattern đưa ra 1 ý tưởng mới cho việc khởi tạo các instance phù hợp với mỗi request từ phía Client.
+ Sử dụng Factory pattern sẽ có những ưu điểm sau:
+    + Tạo ra 1 cách mới trong việc khởi tạo cá Object thông qua 1 interface chung.
+    + Khởi tạo các Objects mà che giấu đi xử lí logic của việc khởi tạo đấy.
+    + Giảm sự phụ thuộc giữa các module, các logic với các class cụ thể, mà chỉ phụ thuộc vào interface hoặc abstract class.
+
+- Vậy thì khi nào chúng ta nên sử dụng Factory pattern?
+--> Dựa vào lợi ích của việc sử dụng Factory pattern mà ta sẽ dùng chúng với một số mục đích sau:
+    + Tạo ra 1 cách mới trong việc khởi tạo Object => Hiển nhiên.
+    + Che giấu xử lý logic của việc khởi tạo => Trong trường hợp bạn đang muốn viết 1 thư viện để người khác sử dụng.
+    + Giảm sự phụ thuộc => Dễ dàng cho việc mở rộng trong trường hợp bạn chưa biết chắc số lượng đối tượng (SamSung, Apple, Nokia)
+     là đã đủ cho bài toán của mình chưa. 😉.
+
+

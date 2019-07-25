@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+  <class name="sso.api.model.SessionUser" table="SessionUser">
+    
+      <meta attribute = "class-description">
+         This class contains the sesion detail. 
+      </meta>  
+      
+    <id name = "id" type = "int" column = "id">
+         <generator class="native"/>
+      </id>
+    <property name="nguoiDungId" type="int">
+      <column name="nguoiDungId"/>
+    </property>
+    <property name="sessionKey" type="java.lang.String">
+      <column name="sessionKey"/>
+    </property>
+    <property name="expriceTime" type="timestamp">
+      <column name="expriceTime"/>
+    </property>
+    <property name="rold" type="java.lang.String">
+      <column name="rold"/>
+    </property>
+  </class>
+</hibernate-mapping>

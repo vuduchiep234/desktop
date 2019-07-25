@@ -1,0 +1,28 @@
+- Single Pattern là một design pattern mà:
+    + Đảm bảo rằng một class chỉ có duy nhất một instance (khởi tạo)
+    + Và cung cấp một cách toàn cầu để truy cấp tới instance đó.
+
+- Hầu hết các đối tượng trong một ứng dụng đều chịu trách nhiệm cho công việc của chúng
+ và truy xuất dữ liệu tự lưu trữ (self-contained data) và các tham chiếu trong phạm vi được đưa ra của chúng.
+ Tuy nhiên, có nhiều đối tượng có thêm những nhiệm vụ và có ảnh hưởng rộng hơn,
+ chẳng hạn như quản lý các nguồn tài nguyên bị giới hạn hoặc theo dõi toàn bộ trạng thái của hệ thống.
+ Ví dụ có thể có rất nhiều máy in trong hệ thống nhưng chỉ có thể tồn tại duy nhất một Sprinter Spooler
+ (Phần quản lý máy in)
+
+
+- Vậy là thế nào để có thể implement Singleton Pattern chúng ta cần trả lời 2 câu hỏi.
+    + Làm sao để 1 class chỉ có thể có duy nhất 1 instance? Trả lời
+    --> Private constructor của class đó để đảm bảo rằng class lớp khác không thể truy cập vào constructor và tạo ra instance mới
+        Tạo một biến private static là thể hiện của class đó để đảm bảo rằng nó là duy nhất và chỉ được tạo ra trong class đó thôi.
+
+    + Làm sao để có thể cung cấp một cách toàn cầu để truy cấp tới instance đó. Trả lời
+
+    --> Tạo một public static menthod trả về instance vừa khởi tạo bên trên, đây là cách duy nhất
+         để các class khác có thể truy cập vào instance của class này.
+
+
+
+
+
+
+
