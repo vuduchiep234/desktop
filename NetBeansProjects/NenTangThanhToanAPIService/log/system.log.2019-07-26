@@ -1,0 +1,899 @@
+[INFO] 2019-07-26 10:07:17,376 nttt.api.server.ServiceDaemon main - Start Service NenTangThanhToanAPIService
+[INFO] 2019-07-26 10:07:20,501 org.hibernate.cfg.Environment <clinit> - Hibernate 3.2.6
+[INFO] 2019-07-26 10:07:20,503 org.hibernate.cfg.Environment <clinit> - hibernate.properties not found
+[INFO] 2019-07-26 10:07:20,505 org.hibernate.cfg.Environment buildBytecodeProvider - Bytecode provider name : cglib
+[INFO] 2019-07-26 10:07:20,507 org.hibernate.cfg.Environment <clinit> - using JDK 1.4 java.sql.Timestamp handling
+[INFO] 2019-07-26 10:07:20,530 org.hibernate.cfg.Configuration configure - configuring from resource: nttt/api/configdb/hibernate.cfg.xml
+[INFO] 2019-07-26 10:07:20,530 org.hibernate.cfg.Configuration getConfigurationInputStream - Configuration resource: nttt/api/configdb/hibernate.cfg.xml
+[DEBUG] 2019-07-26 10:07:20,571 org.hibernate.util.DTDEntityResolver resolveEntity - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+[DEBUG] 2019-07-26 10:07:20,571 org.hibernate.util.DTDEntityResolver resolveEntity - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2019-07-26 10:07:20,572 org.hibernate.util.DTDEntityResolver resolveEntity - located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+[DEBUG] 2019-07-26 10:07:20,588 org.hibernate.cfg.Configuration addProperties - hibernate.connection.driver_class=org.postgresql.Driver
+[DEBUG] 2019-07-26 10:07:20,588 org.hibernate.cfg.Configuration addProperties - connection.url=jdbc:postgresql://10.14.142.15:5434/LGSP_PAYMENT
+[DEBUG] 2019-07-26 10:07:20,588 org.hibernate.cfg.Configuration addProperties - connection.username=postgres
+[DEBUG] 2019-07-26 10:07:20,588 org.hibernate.cfg.Configuration addProperties - connection.password=123456abc@
+[DEBUG] 2019-07-26 10:07:20,588 org.hibernate.cfg.Configuration addProperties - hibernate.connection.CharSet=utf8
+[DEBUG] 2019-07-26 10:07:20,588 org.hibernate.cfg.Configuration addProperties - hibernate.connection.characterEncoding=utf8
+[DEBUG] 2019-07-26 10:07:20,589 org.hibernate.cfg.Configuration addProperties - hibernate.connection.useUnicode=true
+[DEBUG] 2019-07-26 10:07:20,589 org.hibernate.cfg.Configuration addProperties - hibernate.c3p0.validate=true
+[DEBUG] 2019-07-26 10:07:20,589 org.hibernate.cfg.Configuration addProperties - hibernate.connection.provider_class=org.hibernate.connection.C3P0ConnectionProvider
+[DEBUG] 2019-07-26 10:07:20,589 org.hibernate.cfg.Configuration addProperties - hibernate.c3p0.min_size=5
+[DEBUG] 2019-07-26 10:07:20,589 org.hibernate.cfg.Configuration addProperties - hibernate.c3p0.max_size=600
+[DEBUG] 2019-07-26 10:07:20,589 org.hibernate.cfg.Configuration addProperties - hibernate.c3p0.timeout=1800
+[DEBUG] 2019-07-26 10:07:20,589 org.hibernate.cfg.Configuration addProperties - hibernate.c3p0.max_statements=50
+[DEBUG] 2019-07-26 10:07:20,590 org.hibernate.cfg.Configuration addProperties - hibernate.c3p0.preferredTestQuery=SELECT 1;
+[DEBUG] 2019-07-26 10:07:20,590 org.hibernate.cfg.Configuration addProperties - hibernate.c3p0.idle_test_period=3000
+[DEBUG] 2019-07-26 10:07:20,590 org.hibernate.cfg.Configuration addProperties - hibernate.connection.zeroDateTimeBehavior=convertToNull
+[DEBUG] 2019-07-26 10:07:20,590 org.hibernate.cfg.Configuration addProperties - show_sql=false
+[DEBUG] 2019-07-26 10:07:20,590 org.hibernate.cfg.Configuration addProperties - hibernate.show_sql=true
+[DEBUG] 2019-07-26 10:07:20,590 org.hibernate.cfg.Configuration addProperties - hibernate.current_session_context_class=thread
+[DEBUG] 2019-07-26 10:07:20,590 org.hibernate.cfg.Configuration addProperties - hibernate.query.factory_class=org.hibernate.hql.classic.ClassicQueryTranslatorFactory
+[DEBUG] 2019-07-26 10:07:20,590 org.hibernate.cfg.Configuration addProperties - hibernate.dialect=nttt.api.configdb.PostgreSQLDialect
+[DEBUG] 2019-07-26 10:07:20,590 org.hibernate.cfg.Configuration parseMappingElement - null<-org.dom4j.tree.DefaultAttribute@4ea3e80c [Attribute: name resource value "nttt/api/configdb/Session.hbm.xml"]
+[INFO] 2019-07-26 10:07:20,590 org.hibernate.cfg.Configuration addResource - Reading mappings from resource : nttt/api/configdb/Session.hbm.xml
+[DEBUG] 2019-07-26 10:07:20,591 org.hibernate.util.DTDEntityResolver resolveEntity - trying to resolve system-id [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd]
+[DEBUG] 2019-07-26 10:07:20,592 org.hibernate.util.DTDEntityResolver resolveEntity - recognized local namespace; attempting to resolve on classpath
+[DEBUG] 2019-07-26 10:07:20,592 org.hibernate.util.DTDEntityResolver resolveEntity - located [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd] in classpath
+[INFO] 2019-07-26 10:07:20,635 org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues - Mapping class: nttt.api.model.SessionUser -> SessionUser
+[DEBUG] 2019-07-26 10:07:20,639 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: id -> id
+[DEBUG] 2019-07-26 10:07:20,643 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: partnerCode -> partnerCode
+[DEBUG] 2019-07-26 10:07:20,643 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: username -> username
+[DEBUG] 2019-07-26 10:07:20,644 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: sessionKey -> sessionKey
+[DEBUG] 2019-07-26 10:07:20,644 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: expriceTime -> expriceTime
+[DEBUG] 2019-07-26 10:07:20,644 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: role -> role
+[DEBUG] 2019-07-26 10:07:20,644 org.hibernate.cfg.Configuration parseMappingElement - null<-org.dom4j.tree.DefaultAttribute@754d6e08 [Attribute: name resource value "nttt/api/configdb/TaiKhoanKhaiThac.hbm.xml"]
+[INFO] 2019-07-26 10:07:20,645 org.hibernate.cfg.Configuration addResource - Reading mappings from resource : nttt/api/configdb/TaiKhoanKhaiThac.hbm.xml
+[DEBUG] 2019-07-26 10:07:20,646 org.hibernate.util.DTDEntityResolver resolveEntity - trying to resolve system-id [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd]
+[DEBUG] 2019-07-26 10:07:20,647 org.hibernate.util.DTDEntityResolver resolveEntity - recognized local namespace; attempting to resolve on classpath
+[DEBUG] 2019-07-26 10:07:20,647 org.hibernate.util.DTDEntityResolver resolveEntity - located [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd] in classpath
+[INFO] 2019-07-26 10:07:20,671 org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues - Mapping class: nttt.api.model.TaiKhoanKhaiThac -> TaiKhoanKhaiThac
+[DEBUG] 2019-07-26 10:07:20,672 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: id -> id
+[DEBUG] 2019-07-26 10:07:20,672 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: username -> username
+[DEBUG] 2019-07-26 10:07:20,673 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: password -> password
+[DEBUG] 2019-07-26 10:07:20,673 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: partnerName -> partnerName
+[DEBUG] 2019-07-26 10:07:20,673 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: partnerCode -> partnerCode
+[DEBUG] 2019-07-26 10:07:20,674 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: email -> email
+[DEBUG] 2019-07-26 10:07:20,674 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: phone -> phone
+[DEBUG] 2019-07-26 10:07:20,674 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: createdTime -> createdTime
+[DEBUG] 2019-07-26 10:07:20,675 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: updatedTime -> updatedTime
+[DEBUG] 2019-07-26 10:07:20,675 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: type -> type
+[DEBUG] 2019-07-26 10:07:20,675 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: status -> status
+[DEBUG] 2019-07-26 10:07:20,675 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: address -> address
+[DEBUG] 2019-07-26 10:07:20,676 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: accessKey -> accessKey
+[DEBUG] 2019-07-26 10:07:20,676 org.hibernate.cfg.Configuration parseMappingElement - null<-org.dom4j.tree.DefaultAttribute@70b4aa43 [Attribute: name resource value "nttt/api/configdb/DichVu.hbm.xml"]
+[INFO] 2019-07-26 10:07:20,676 org.hibernate.cfg.Configuration addResource - Reading mappings from resource : nttt/api/configdb/DichVu.hbm.xml
+[DEBUG] 2019-07-26 10:07:20,678 org.hibernate.util.DTDEntityResolver resolveEntity - trying to resolve system-id [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd]
+[DEBUG] 2019-07-26 10:07:20,678 org.hibernate.util.DTDEntityResolver resolveEntity - recognized local namespace; attempting to resolve on classpath
+[DEBUG] 2019-07-26 10:07:20,679 org.hibernate.util.DTDEntityResolver resolveEntity - located [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd] in classpath
+[INFO] 2019-07-26 10:07:20,689 org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues - Mapping class: nttt.api.model.DichVu -> DichVu
+[DEBUG] 2019-07-26 10:07:20,689 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: id -> id
+[DEBUG] 2019-07-26 10:07:20,689 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: name -> name
+[DEBUG] 2019-07-26 10:07:20,689 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: icon -> icon
+[DEBUG] 2019-07-26 10:07:20,690 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: orderTypeId -> orderTypeId
+[DEBUG] 2019-07-26 10:07:20,690 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: apiGetInfo -> apiGetInfo
+[DEBUG] 2019-07-26 10:07:20,690 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: apiUpdateInfo -> apiUpdateInfo
+[DEBUG] 2019-07-26 10:07:20,690 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: status -> status
+[DEBUG] 2019-07-26 10:07:20,690 org.hibernate.cfg.Configuration parseMappingElement - null<-org.dom4j.tree.DefaultAttribute@5d026734 [Attribute: name resource value "nttt/api/configdb/CongThanhToan.hbm.xml"]
+[INFO] 2019-07-26 10:07:20,690 org.hibernate.cfg.Configuration addResource - Reading mappings from resource : nttt/api/configdb/CongThanhToan.hbm.xml
+[DEBUG] 2019-07-26 10:07:20,691 org.hibernate.util.DTDEntityResolver resolveEntity - trying to resolve system-id [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd]
+[DEBUG] 2019-07-26 10:07:20,691 org.hibernate.util.DTDEntityResolver resolveEntity - recognized local namespace; attempting to resolve on classpath
+[DEBUG] 2019-07-26 10:07:20,692 org.hibernate.util.DTDEntityResolver resolveEntity - located [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd] in classpath
+[INFO] 2019-07-26 10:07:20,699 org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues - Mapping class: nttt.api.model.CongThanhToan -> CongThanhToan
+[DEBUG] 2019-07-26 10:07:20,699 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: id -> id
+[DEBUG] 2019-07-26 10:07:20,699 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: name -> name
+[DEBUG] 2019-07-26 10:07:20,699 org.hibernate.cfg.Configuration parseMappingElement - null<-org.dom4j.tree.DefaultAttribute@5cb358f [Attribute: name resource value "nttt/api/configdb/LichSuThanhToan.hbm.xml"]
+[INFO] 2019-07-26 10:07:20,699 org.hibernate.cfg.Configuration addResource - Reading mappings from resource : nttt/api/configdb/LichSuThanhToan.hbm.xml
+[DEBUG] 2019-07-26 10:07:20,700 org.hibernate.util.DTDEntityResolver resolveEntity - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+[DEBUG] 2019-07-26 10:07:20,700 org.hibernate.util.DTDEntityResolver resolveEntity - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2019-07-26 10:07:20,700 org.hibernate.util.DTDEntityResolver resolveEntity - located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+[INFO] 2019-07-26 10:07:20,707 org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues - Mapping class: nttt.api.model.LichSuThanhToan -> LichSuThanhToan
+[DEBUG] 2019-07-26 10:07:20,707 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: id -> id
+[DEBUG] 2019-07-26 10:07:20,707 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: tenDangNhap -> tendangnhap
+[DEBUG] 2019-07-26 10:07:20,708 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: requestCode -> requestCode
+[DEBUG] 2019-07-26 10:07:20,708 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: amount -> amount
+[DEBUG] 2019-07-26 10:07:20,708 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: orderId -> orderId
+[DEBUG] 2019-07-26 10:07:20,708 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: orderInfo -> orderInfo
+[DEBUG] 2019-07-26 10:07:20,708 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: orderPayId -> orderPayId
+[DEBUG] 2019-07-26 10:07:20,709 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: payTransactionNo -> payTransactionNo
+[DEBUG] 2019-07-26 10:07:20,709 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: payDate -> payDate
+[DEBUG] 2019-07-26 10:07:20,709 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: errorCode -> errorCode
+[DEBUG] 2019-07-26 10:07:20,709 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: payCenter -> payCenter
+[DEBUG] 2019-07-26 10:07:20,709 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: partnerCode -> partnerCode
+[DEBUG] 2019-07-26 10:07:20,709 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: serviceId -> serviceId
+[DEBUG] 2019-07-26 10:07:20,709 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: createdTime -> createdTime
+[DEBUG] 2019-07-26 10:07:20,710 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: billcode -> billcode
+[DEBUG] 2019-07-26 10:07:20,710 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: accountPay -> accountPay
+[DEBUG] 2019-07-26 10:07:20,710 org.hibernate.cfg.Configuration parseMappingElement - null<-org.dom4j.tree.DefaultAttribute@6bfe9bfe [Attribute: name resource value "nttt/api/configdb/ThongTinThanhToan.hbm.xml"]
+[INFO] 2019-07-26 10:07:20,710 org.hibernate.cfg.Configuration addResource - Reading mappings from resource : nttt/api/configdb/ThongTinThanhToan.hbm.xml
+[DEBUG] 2019-07-26 10:07:20,711 org.hibernate.util.DTDEntityResolver resolveEntity - trying to resolve system-id [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd]
+[DEBUG] 2019-07-26 10:07:20,711 org.hibernate.util.DTDEntityResolver resolveEntity - recognized local namespace; attempting to resolve on classpath
+[DEBUG] 2019-07-26 10:07:20,711 org.hibernate.util.DTDEntityResolver resolveEntity - located [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd] in classpath
+[INFO] 2019-07-26 10:07:20,717 org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues - Mapping class: nttt.api.model.ThongTinThanhToan -> ThongTinThanhToan
+[DEBUG] 2019-07-26 10:07:20,717 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: id -> id
+[DEBUG] 2019-07-26 10:07:20,718 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: payPartnerCode -> payPartnerCode
+[DEBUG] 2019-07-26 10:07:20,718 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: payAccessKey -> payAccessKey
+[DEBUG] 2019-07-26 10:07:20,718 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: paySecretKey -> paySecretKey
+[DEBUG] 2019-07-26 10:07:20,718 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: partnerCode -> partnerCode
+[DEBUG] 2019-07-26 10:07:20,718 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: congThanhToanId -> congThanhToanId
+[DEBUG] 2019-07-26 10:07:20,719 org.hibernate.cfg.Configuration parseMappingElement - null<-org.dom4j.tree.DefaultAttribute@1d17b98a [Attribute: name resource value "nttt/api/configdb/TaiKhoanKhaiThacDichVu.hbm.xml"]
+[INFO] 2019-07-26 10:07:20,719 org.hibernate.cfg.Configuration addResource - Reading mappings from resource : nttt/api/configdb/TaiKhoanKhaiThacDichVu.hbm.xml
+[DEBUG] 2019-07-26 10:07:20,720 org.hibernate.util.DTDEntityResolver resolveEntity - trying to resolve system-id [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd]
+[DEBUG] 2019-07-26 10:07:20,720 org.hibernate.util.DTDEntityResolver resolveEntity - recognized local namespace; attempting to resolve on classpath
+[DEBUG] 2019-07-26 10:07:20,721 org.hibernate.util.DTDEntityResolver resolveEntity - located [classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd] in classpath
+[INFO] 2019-07-26 10:07:20,727 org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues - Mapping class: nttt.api.model.TaiKhoanKhaiThacDichVu -> TaiKhoanKhaiThacDichVu
+[DEBUG] 2019-07-26 10:07:20,728 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: id -> id
+[DEBUG] 2019-07-26 10:07:20,728 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: serviceId -> serviceId
+[DEBUG] 2019-07-26 10:07:20,728 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: partnerId -> partnerId
+[DEBUG] 2019-07-26 10:07:20,728 org.hibernate.cfg.Configuration parseMappingElement - null<-org.dom4j.tree.DefaultAttribute@102180eb [Attribute: name resource value "nttt/api/configdb/ValidateViettel.hbm.xml"]
+[INFO] 2019-07-26 10:07:20,729 org.hibernate.cfg.Configuration addResource - Reading mappings from resource : nttt/api/configdb/ValidateViettel.hbm.xml
+[DEBUG] 2019-07-26 10:07:20,729 org.hibernate.util.DTDEntityResolver resolveEntity - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+[DEBUG] 2019-07-26 10:07:20,730 org.hibernate.util.DTDEntityResolver resolveEntity - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2019-07-26 10:07:20,730 org.hibernate.util.DTDEntityResolver resolveEntity - located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+[INFO] 2019-07-26 10:07:20,737 org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues - Mapping class: nttt.api.model.ValidateViettel -> ValidateViettel
+[DEBUG] 2019-07-26 10:07:20,737 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: id -> id
+[DEBUG] 2019-07-26 10:07:20,738 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: partnerCode -> partnerCode
+[DEBUG] 2019-07-26 10:07:20,738 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: requestCode -> requestCode
+[DEBUG] 2019-07-26 10:07:20,738 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: amount -> amount
+[DEBUG] 2019-07-26 10:07:20,738 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: orderId -> orderId
+[DEBUG] 2019-07-26 10:07:20,739 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: orderInfo -> orderInfo
+[DEBUG] 2019-07-26 10:07:20,739 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: billcode -> billcode
+[DEBUG] 2019-07-26 10:07:20,739 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: payDate -> payDate
+[DEBUG] 2019-07-26 10:07:20,739 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: errorCode -> errorCode
+[DEBUG] 2019-07-26 10:07:20,739 org.hibernate.cfg.HbmBinder bindProperty - Mapped property: payCenter -> payCenter
+[INFO] 2019-07-26 10:07:20,739 org.hibernate.cfg.Configuration doConfigure - Configured SessionFactory: null
+[DEBUG] 2019-07-26 10:07:20,740 org.hibernate.cfg.Configuration doConfigure - properties: {show_sql=false, java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:postgresql://10.14.142.15:5434/LGSP_PAYMENT, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.connection.characterEncoding=utf8, os.name=Linux, sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes, hibernate.connection.zeroDateTimeBehavior=convertToNull, hibernate.current_session_context_class=thread, sun.desktop=gnome, hibernate.c3p0.max_size=600, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_212-8u212-b03-0ubuntu1.18.04.1-b03, hibernate.c3p0.min_size=5, user.name=anbq, hibernate.c3p0.timeout=1800, user.language=en, sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64, hibernate.c3p0.preferredTestQuery=SELECT 1;, java.version=1.8.0_212, user.timezone=Asia/Ho_Chi_Minh, sun.arch.data.model=64, java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=US, connection.url=jdbc:postgresql://10.14.142.15:5434/LGSP_PAYMENT, java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre, java.vm.info=mixed mode, hibernate.c3p0.validate=true, os.version=4.15.0-54-generic, path.separator=:, connection.password=123456abc@, java.vm.version=25.212-b03, hibernate.connection.password=123456abc@, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, hibernate.connection.username=postgres, user.home=/home/anbq, java.specification.vendor=Oracle Corporation, java.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=org.postgresql.Driver, connection.username=postgres, java.vm.vendor=Oracle Corporation, hibernate.dialect=nttt.api.configdb.PostgreSQLDialect, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=nttt.api.server.ServiceDaemon, java.class.path=/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/Firo.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/asm.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/c3p0.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/cglib-2.2.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/clhm-production-1.0.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/com.springsource.org.hibernate-3.2.6.ga-1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-codec-1.4.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-collections-3.2.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-configuration-1.6.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-fileupload-1.3.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-httpclient-3.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-io-2.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-lang-2.5.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-logging-1.1.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-pool-1.5.5.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/dom4j-1.6.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/gson-2.2.2.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/gson-2.6.2.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/hibernate-annotations-3.2.0.GA.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/httpmime-4.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/httpcore-4.4.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jackson-core-asl-1.9.5.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jackson-mapper-asl-1.9.5.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/javax-jta-1.1.0.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/javax.servlet-api-3.1.0.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-http-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-io-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-security-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-server-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-servlet-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-util-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-webapp-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-xml-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/log4j-1.2.16.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/mongo-java-driver-3.6.3.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/mysql-connector-java-5.1.36-bin.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/ojdbc8.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/org.json.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/postgresql-9.2-1004.jdbc41.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/slf4j-api-1.7.5.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/slf4j-simple-1.6.4.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/sqljdbc4.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/websocket-server-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/wmb-lib-json-0.1.v20120706.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/httpclient-4.4.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/build/classes, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, hibernate.connection.provider_class=org.hibernate.connection.C3P0ConnectionProvider, hibernate.connection.CharSet=utf8, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.query.factory_class=org.hibernate.hql.classic.ClassicQueryTranslatorFactory, os.arch=amd64, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, hibernate.connection.useUnicode=true, user.dir=/home/anbq/workplace/LGSP/NenTangThanhToanAPIService, hibernate.c3p0.idle_test_period=3000, line.separator=
+, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.8, hibernate.show_sql=true, hibernate.c3p0.max_statements=50}
+[DEBUG] 2019-07-26 10:07:20,740 org.hibernate.cfg.Configuration buildSessionFactory - Preparing to build session factory with filters : {}
+[DEBUG] 2019-07-26 10:07:20,740 org.hibernate.cfg.Configuration secondPassCompile - processing extends queue
+[DEBUG] 2019-07-26 10:07:20,740 org.hibernate.cfg.Configuration secondPassCompile - processing collection mappings
+[DEBUG] 2019-07-26 10:07:20,740 org.hibernate.cfg.Configuration secondPassCompile - processing native query and ResultSetMapping mappings
+[DEBUG] 2019-07-26 10:07:20,740 org.hibernate.cfg.Configuration secondPassCompile - processing association property references
+[DEBUG] 2019-07-26 10:07:20,741 org.hibernate.cfg.Configuration secondPassCompile - processing foreign key constraints
+[INFO] 2019-07-26 10:07:20,763 org.hibernate.connection.ConnectionProviderFactory newConnectionProvider - Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[INFO] 2019-07-26 10:07:20,766 org.hibernate.connection.C3P0ConnectionProvider configure - C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://10.14.142.15:5434/LGSP_PAYMENT
+[INFO] 2019-07-26 10:07:20,766 org.hibernate.connection.C3P0ConnectionProvider configure - Connection properties: {useUnicode=true, user=postgres, password=****, CharSet=utf8, characterEncoding=utf8, zeroDateTimeBehavior=convertToNull}
+[INFO] 2019-07-26 10:07:20,766 org.hibernate.connection.C3P0ConnectionProvider configure - autocommit mode: false
+[DEBUG] 2019-07-26 10:07:21,159 org.hibernate.cfg.SettingsFactory getDatabaseMajorVersion - could not get database version from JDBC metadata
+[INFO] 2019-07-26 10:07:21,160 org.hibernate.cfg.SettingsFactory buildSettings - RDBMS: PostgreSQL, version: 9.4.20
+[INFO] 2019-07-26 10:07:21,160 org.hibernate.cfg.SettingsFactory buildSettings - JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.2 JDBC4.1 (build 1004)
+[INFO] 2019-07-26 10:07:21,184 org.hibernate.dialect.Dialect <init> - Using dialect: nttt.api.configdb.PostgreSQLDialect
+[INFO] 2019-07-26 10:07:21,192 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory - Using default transaction strategy (direct JDBC transactions)
+[INFO] 2019-07-26 10:07:21,195 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO] 2019-07-26 10:07:21,195 org.hibernate.cfg.SettingsFactory buildSettings - Automatic flush during beforeCompletion(): disabled
+[INFO] 2019-07-26 10:07:21,196 org.hibernate.cfg.SettingsFactory buildSettings - Automatic session close at end of transaction: disabled
+[INFO] 2019-07-26 10:07:21,197 org.hibernate.cfg.SettingsFactory buildSettings - JDBC batch size: 15
+[INFO] 2019-07-26 10:07:21,197 org.hibernate.cfg.SettingsFactory buildSettings - JDBC batch updates for versioned data: disabled
+[INFO] 2019-07-26 10:07:21,198 org.hibernate.cfg.SettingsFactory buildSettings - Scrollable result sets: enabled
+[DEBUG] 2019-07-26 10:07:21,199 org.hibernate.cfg.SettingsFactory buildSettings - Wrap result sets: disabled
+[INFO] 2019-07-26 10:07:21,199 org.hibernate.cfg.SettingsFactory buildSettings - JDBC3 getGeneratedKeys(): disabled
+[INFO] 2019-07-26 10:07:21,199 org.hibernate.cfg.SettingsFactory buildSettings - Connection release mode: auto
+[INFO] 2019-07-26 10:07:21,201 org.hibernate.cfg.SettingsFactory buildSettings - Default batch fetch size: 1
+[INFO] 2019-07-26 10:07:21,201 org.hibernate.cfg.SettingsFactory buildSettings - Generate SQL with comments: disabled
+[INFO] 2019-07-26 10:07:21,202 org.hibernate.cfg.SettingsFactory buildSettings - Order SQL updates by primary key: disabled
+[INFO] 2019-07-26 10:07:21,202 org.hibernate.cfg.SettingsFactory buildSettings - Order SQL inserts for batching: disabled
+[INFO] 2019-07-26 10:07:21,202 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory - Query translator: org.hibernate.hql.classic.ClassicQueryTranslatorFactory
+[INFO] 2019-07-26 10:07:21,205 org.hibernate.cfg.SettingsFactory buildSettings - Query language substitutions: {}
+[INFO] 2019-07-26 10:07:21,205 org.hibernate.cfg.SettingsFactory buildSettings - JPA-QL strict compliance: disabled
+[INFO] 2019-07-26 10:07:21,206 org.hibernate.cfg.SettingsFactory buildSettings - Second-level cache: enabled
+[INFO] 2019-07-26 10:07:21,206 org.hibernate.cfg.SettingsFactory buildSettings - Query cache: disabled
+[INFO] 2019-07-26 10:07:21,207 org.hibernate.cfg.SettingsFactory createCacheProvider - Cache provider: org.hibernate.cache.NoCacheProvider
+[INFO] 2019-07-26 10:07:21,207 org.hibernate.cfg.SettingsFactory buildSettings - Optimize cache for minimal puts: disabled
+[INFO] 2019-07-26 10:07:21,208 org.hibernate.cfg.SettingsFactory buildSettings - Structured second-level cache entries: disabled
+[INFO] 2019-07-26 10:07:21,211 org.hibernate.cfg.SettingsFactory buildSettings - Echoing all SQL to stdout
+[INFO] 2019-07-26 10:07:21,211 org.hibernate.cfg.SettingsFactory buildSettings - Statistics: disabled
+[INFO] 2019-07-26 10:07:21,211 org.hibernate.cfg.SettingsFactory buildSettings - Deleted entity synthetic identifier rollback: disabled
+[INFO] 2019-07-26 10:07:21,212 org.hibernate.cfg.SettingsFactory buildSettings - Default entity-mode: pojo
+[INFO] 2019-07-26 10:07:21,212 org.hibernate.cfg.SettingsFactory buildSettings - Named query checking : enabled
+[INFO] 2019-07-26 10:07:21,234 org.hibernate.impl.SessionFactoryImpl <init> - building session factory
+[DEBUG] 2019-07-26 10:07:21,234 org.hibernate.impl.SessionFactoryImpl <init> - Session factory constructed with filter configurations : {}
+[DEBUG] 2019-07-26 10:07:21,235 org.hibernate.impl.SessionFactoryImpl <init> - instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:postgresql://10.14.142.15:5434/LGSP_PAYMENT, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.connection.characterEncoding=utf8, os.name=Linux, sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes, hibernate.connection.zeroDateTimeBehavior=convertToNull, hibernate.current_session_context_class=thread, sun.desktop=gnome, hibernate.c3p0.max_size=600, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_212-8u212-b03-0ubuntu1.18.04.1-b03, hibernate.c3p0.min_size=5, user.name=anbq, hibernate.c3p0.timeout=1800, user.language=en, sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64, hibernate.c3p0.preferredTestQuery=SELECT 1;, java.version=1.8.0_212, user.timezone=Asia/Ho_Chi_Minh, sun.arch.data.model=64, java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=US, connection.url=jdbc:postgresql://10.14.142.15:5434/LGSP_PAYMENT, java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre, java.vm.info=mixed mode, hibernate.c3p0.validate=true, os.version=4.15.0-54-generic, path.separator=:, connection.password=123456abc@, java.vm.version=25.212-b03, hibernate.connection.password=123456abc@, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, hibernate.connection.username=postgres, user.home=/home/anbq, java.specification.vendor=Oracle Corporation, java.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=org.postgresql.Driver, connection.username=postgres, java.vm.vendor=Oracle Corporation, hibernate.dialect=nttt.api.configdb.PostgreSQLDialect, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=nttt.api.server.ServiceDaemon, java.class.path=/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/Firo.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/asm.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/c3p0.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/cglib-2.2.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/clhm-production-1.0.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/com.springsource.org.hibernate-3.2.6.ga-1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-codec-1.4.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-collections-3.2.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-configuration-1.6.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-fileupload-1.3.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-httpclient-3.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-io-2.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-lang-2.5.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-logging-1.1.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/commons-pool-1.5.5.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/dom4j-1.6.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/gson-2.2.2.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/gson-2.6.2.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/hibernate-annotations-3.2.0.GA.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/httpmime-4.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/httpcore-4.4.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jackson-core-asl-1.9.5.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jackson-mapper-asl-1.9.5.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/javax-jta-1.1.0.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/javax.servlet-api-3.1.0.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-http-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-io-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-security-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-server-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-servlet-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-util-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-webapp-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/jetty-xml-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/log4j-1.2.16.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/mongo-java-driver-3.6.3.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/mysql-connector-java-5.1.36-bin.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/ojdbc8.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/org.json.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/postgresql-9.2-1004.jdbc41.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/slf4j-api-1.7.5.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/slf4j-simple-1.6.4.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/sqljdbc4.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/websocket-server-9.3.6.v20151106.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/wmb-lib-json-0.1.v20120706.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/lib/httpclient-4.4.1.jar:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/build/classes, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, hibernate.connection.provider_class=org.hibernate.connection.C3P0ConnectionProvider, hibernate.connection.CharSet=utf8, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.query.factory_class=org.hibernate.hql.classic.ClassicQueryTranslatorFactory, os.arch=amd64, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, hibernate.connection.useUnicode=true, user.dir=/home/anbq/workplace/LGSP/NenTangThanhToanAPIService, hibernate.c3p0.idle_test_period=3000, line.separator=
+, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.8, hibernate.c3p0.max_statements=50, hibernate.show_sql=true}
+[DEBUG] 2019-07-26 10:07:21,325 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL - Static SQL for entity: nttt.api.model.TaiKhoanKhaiThac
+[DEBUG] 2019-07-26 10:07:21,325 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Version select: select id from TaiKhoanKhaiThac where id =?
+[DEBUG] 2019-07-26 10:07:21,325 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Snapshot select: select taikhoankh_.id, taikhoankh_.username as username1_, taikhoankh_.password as password1_, taikhoankh_.partnerName as partnerN4_1_, taikhoankh_.partnerCode as partnerC5_1_, taikhoankh_.email as email1_, taikhoankh_.phone as phone1_, taikhoankh_.createdTime as createdT8_1_, taikhoankh_.updatedTime as updatedT9_1_, taikhoankh_.type as type1_, taikhoankh_.status as status1_, taikhoankh_.address as address1_, taikhoankh_.accessKey as accessKey1_ from TaiKhoanKhaiThac taikhoankh_ where taikhoankh_.id=?
+[DEBUG] 2019-07-26 10:07:21,326 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Insert 0: insert into TaiKhoanKhaiThac (username, password, partnerName, partnerCode, email, phone, createdTime, updatedTime, type, status, address, accessKey, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2019-07-26 10:07:21,326 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Update 0: update TaiKhoanKhaiThac set username=?, password=?, partnerName=?, partnerCode=?, email=?, phone=?, createdTime=?, updatedTime=?, type=?, status=?, address=?, accessKey=? where id=?
+[DEBUG] 2019-07-26 10:07:21,326 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Delete 0: delete from TaiKhoanKhaiThac where id=?
+[DEBUG] 2019-07-26 10:07:21,330 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL - Static SQL for entity: nttt.api.model.SessionUser
+[DEBUG] 2019-07-26 10:07:21,330 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Version select: select id from SessionUser where id =?
+[DEBUG] 2019-07-26 10:07:21,330 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Snapshot select: select sessionuse_.id, sessionuse_.partnerCode as partnerC2_0_, sessionuse_.username as username0_, sessionuse_.sessionKey as sessionKey0_, sessionuse_.expriceTime as expriceT5_0_, sessionuse_.role as role0_ from SessionUser sessionuse_ where sessionuse_.id=?
+[DEBUG] 2019-07-26 10:07:21,330 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Insert 0: insert into SessionUser (partnerCode, username, sessionKey, expriceTime, role, id) values (?, ?, ?, ?, ?, ?)
+[DEBUG] 2019-07-26 10:07:21,330 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Update 0: update SessionUser set partnerCode=?, username=?, sessionKey=?, expriceTime=?, role=? where id=?
+[DEBUG] 2019-07-26 10:07:21,330 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Delete 0: delete from SessionUser where id=?
+[DEBUG] 2019-07-26 10:07:21,337 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL - Static SQL for entity: nttt.api.model.LichSuThanhToan
+[DEBUG] 2019-07-26 10:07:21,337 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Version select: select id from LichSuThanhToan where id =?
+[DEBUG] 2019-07-26 10:07:21,337 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Snapshot select: select lichsuthan_.id, lichsuthan_.tendangnhap as tendangn2_4_, lichsuthan_.requestCode as requestC3_4_, lichsuthan_.amount as amount4_, lichsuthan_.orderId as orderId4_, lichsuthan_.orderInfo as orderInfo4_, lichsuthan_.orderPayId as orderPayId4_, lichsuthan_.payTransactionNo as payTrans8_4_, lichsuthan_.payDate as payDate4_, lichsuthan_.errorCode as errorCode4_, lichsuthan_.payCenter as payCenter4_, lichsuthan_.partnerCode as partner12_4_, lichsuthan_.serviceId as serviceId4_, lichsuthan_.createdTime as created14_4_, lichsuthan_.billcode as billcode4_, lichsuthan_.accountPay as accountPay4_ from LichSuThanhToan lichsuthan_ where lichsuthan_.id=?
+[DEBUG] 2019-07-26 10:07:21,337 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Insert 0: insert into LichSuThanhToan (tendangnhap, requestCode, amount, orderId, orderInfo, orderPayId, payTransactionNo, payDate, errorCode, payCenter, partnerCode, serviceId, createdTime, billcode, accountPay, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2019-07-26 10:07:21,337 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Update 0: update LichSuThanhToan set tendangnhap=?, requestCode=?, amount=?, orderId=?, orderInfo=?, orderPayId=?, payTransactionNo=?, payDate=?, errorCode=?, payCenter=?, partnerCode=?, serviceId=?, createdTime=?, billcode=?, accountPay=? where id=?
+[DEBUG] 2019-07-26 10:07:21,337 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Delete 0: delete from LichSuThanhToan where id=?
+[DEBUG] 2019-07-26 10:07:21,340 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL - Static SQL for entity: nttt.api.model.DichVu
+[DEBUG] 2019-07-26 10:07:21,340 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Version select: select id from DichVu where id =?
+[DEBUG] 2019-07-26 10:07:21,340 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Snapshot select: select dichvu_.id, dichvu_.name as name2_, dichvu_.icon as icon2_, dichvu_.orderTypeId as orderTyp4_2_, dichvu_.apiGetInfo as apiGetInfo2_, dichvu_.apiUpdateInfo as apiUpdat6_2_, dichvu_.status as status2_ from DichVu dichvu_ where dichvu_.id=?
+[DEBUG] 2019-07-26 10:07:21,340 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Insert 0: insert into DichVu (name, icon, orderTypeId, apiGetInfo, apiUpdateInfo, status, id) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2019-07-26 10:07:21,340 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Update 0: update DichVu set name=?, icon=?, orderTypeId=?, apiGetInfo=?, apiUpdateInfo=?, status=? where id=?
+[DEBUG] 2019-07-26 10:07:21,340 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Delete 0: delete from DichVu where id=?
+[DEBUG] 2019-07-26 10:07:21,343 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL - Static SQL for entity: nttt.api.model.ThongTinThanhToan
+[DEBUG] 2019-07-26 10:07:21,343 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Version select: select id from ThongTinThanhToan where id =?
+[DEBUG] 2019-07-26 10:07:21,343 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Snapshot select: select thongtinth_.id, thongtinth_.payPartnerCode as payPartn2_5_, thongtinth_.payAccessKey as payAcces3_5_, thongtinth_.paySecretKey as paySecre4_5_, thongtinth_.partnerCode as partnerC5_5_, thongtinth_.congThanhToanId as congThan6_5_ from ThongTinThanhToan thongtinth_ where thongtinth_.id=?
+[DEBUG] 2019-07-26 10:07:21,343 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Insert 0: insert into ThongTinThanhToan (payPartnerCode, payAccessKey, paySecretKey, partnerCode, congThanhToanId, id) values (?, ?, ?, ?, ?, ?)
+[DEBUG] 2019-07-26 10:07:21,344 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Update 0: update ThongTinThanhToan set payPartnerCode=?, payAccessKey=?, paySecretKey=?, partnerCode=?, congThanhToanId=? where id=?
+[DEBUG] 2019-07-26 10:07:21,344 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Delete 0: delete from ThongTinThanhToan where id=?
+[DEBUG] 2019-07-26 10:07:21,348 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL - Static SQL for entity: nttt.api.model.ValidateViettel
+[DEBUG] 2019-07-26 10:07:21,348 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Version select: select id from ValidateViettel where id =?
+[DEBUG] 2019-07-26 10:07:21,348 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Snapshot select: select validatevi_.id, validatevi_.partnerCode as partnerC2_7_, validatevi_.requestCode as requestC3_7_, validatevi_.amount as amount7_, validatevi_.orderId as orderId7_, validatevi_.orderInfo as orderInfo7_, validatevi_.billcode as billcode7_, validatevi_.payDate as payDate7_, validatevi_.errorCode as errorCode7_, validatevi_.payCenter as payCenter7_ from ValidateViettel validatevi_ where validatevi_.id=?
+[DEBUG] 2019-07-26 10:07:21,348 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Insert 0: insert into ValidateViettel (partnerCode, requestCode, amount, orderId, orderInfo, billcode, payDate, errorCode, payCenter, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2019-07-26 10:07:21,348 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Update 0: update ValidateViettel set partnerCode=?, requestCode=?, amount=?, orderId=?, orderInfo=?, billcode=?, payDate=?, errorCode=?, payCenter=? where id=?
+[DEBUG] 2019-07-26 10:07:21,349 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Delete 0: delete from ValidateViettel where id=?
+[DEBUG] 2019-07-26 10:07:21,351 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL - Static SQL for entity: nttt.api.model.CongThanhToan
+[DEBUG] 2019-07-26 10:07:21,352 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Version select: select id from CongThanhToan where id =?
+[DEBUG] 2019-07-26 10:07:21,352 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Snapshot select: select congthanht_.id, congthanht_.name as name3_ from CongThanhToan congthanht_ where congthanht_.id=?
+[DEBUG] 2019-07-26 10:07:21,352 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Insert 0: insert into CongThanhToan (name, id) values (?, ?)
+[DEBUG] 2019-07-26 10:07:21,352 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Update 0: update CongThanhToan set name=? where id=?
+[DEBUG] 2019-07-26 10:07:21,352 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Delete 0: delete from CongThanhToan where id=?
+[DEBUG] 2019-07-26 10:07:21,355 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL - Static SQL for entity: nttt.api.model.TaiKhoanKhaiThacDichVu
+[DEBUG] 2019-07-26 10:07:21,355 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Version select: select id from TaiKhoanKhaiThacDichVu where id =?
+[DEBUG] 2019-07-26 10:07:21,355 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Snapshot select: select taikhoankh_.id, taikhoankh_.serviceId as serviceId6_, taikhoankh_.partnerId as partnerId6_ from TaiKhoanKhaiThacDichVu taikhoankh_ where taikhoankh_.id=?
+[DEBUG] 2019-07-26 10:07:21,355 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Insert 0: insert into TaiKhoanKhaiThacDichVu (serviceId, partnerId, id) values (?, ?, ?)
+[DEBUG] 2019-07-26 10:07:21,355 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Update 0: update TaiKhoanKhaiThacDichVu set serviceId=?, partnerId=? where id=?
+[DEBUG] 2019-07-26 10:07:21,355 org.hibernate.persister.entity.AbstractEntityPersister logStaticSQL -  Delete 0: delete from TaiKhoanKhaiThacDichVu where id=?
+[DEBUG] 2019-07-26 10:07:21,362 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.TaiKhoanKhaiThac: select taikhoankh0_.id as id1_0_, taikhoankh0_.username as username1_0_, taikhoankh0_.password as password1_0_, taikhoankh0_.partnerName as partnerN4_1_0_, taikhoankh0_.partnerCode as partnerC5_1_0_, taikhoankh0_.email as email1_0_, taikhoankh0_.phone as phone1_0_, taikhoankh0_.createdTime as createdT8_1_0_, taikhoankh0_.updatedTime as updatedT9_1_0_, taikhoankh0_.type as type1_0_, taikhoankh0_.status as status1_0_, taikhoankh0_.address as address1_0_, taikhoankh0_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac taikhoankh0_ where taikhoankh0_.id=?
+[DEBUG] 2019-07-26 10:07:21,363 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.TaiKhoanKhaiThac: select taikhoankh0_.id as id1_0_, taikhoankh0_.username as username1_0_, taikhoankh0_.password as password1_0_, taikhoankh0_.partnerName as partnerN4_1_0_, taikhoankh0_.partnerCode as partnerC5_1_0_, taikhoankh0_.email as email1_0_, taikhoankh0_.phone as phone1_0_, taikhoankh0_.createdTime as createdT8_1_0_, taikhoankh0_.updatedTime as updatedT9_1_0_, taikhoankh0_.type as type1_0_, taikhoankh0_.status as status1_0_, taikhoankh0_.address as address1_0_, taikhoankh0_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac taikhoankh0_ where taikhoankh0_.id=?
+[DEBUG] 2019-07-26 10:07:21,363 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.TaiKhoanKhaiThac: select taikhoankh0_.id as id1_0_, taikhoankh0_.username as username1_0_, taikhoankh0_.password as password1_0_, taikhoankh0_.partnerName as partnerN4_1_0_, taikhoankh0_.partnerCode as partnerC5_1_0_, taikhoankh0_.email as email1_0_, taikhoankh0_.phone as phone1_0_, taikhoankh0_.createdTime as createdT8_1_0_, taikhoankh0_.updatedTime as updatedT9_1_0_, taikhoankh0_.type as type1_0_, taikhoankh0_.status as status1_0_, taikhoankh0_.address as address1_0_, taikhoankh0_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac taikhoankh0_ where taikhoankh0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,363 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.TaiKhoanKhaiThac: select taikhoankh0_.id as id1_0_, taikhoankh0_.username as username1_0_, taikhoankh0_.password as password1_0_, taikhoankh0_.partnerName as partnerN4_1_0_, taikhoankh0_.partnerCode as partnerC5_1_0_, taikhoankh0_.email as email1_0_, taikhoankh0_.phone as phone1_0_, taikhoankh0_.createdTime as createdT8_1_0_, taikhoankh0_.updatedTime as updatedT9_1_0_, taikhoankh0_.type as type1_0_, taikhoankh0_.status as status1_0_, taikhoankh0_.address as address1_0_, taikhoankh0_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac taikhoankh0_ where taikhoankh0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,363 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.TaiKhoanKhaiThac: select taikhoankh0_.id as id1_0_, taikhoankh0_.username as username1_0_, taikhoankh0_.password as password1_0_, taikhoankh0_.partnerName as partnerN4_1_0_, taikhoankh0_.partnerCode as partnerC5_1_0_, taikhoankh0_.email as email1_0_, taikhoankh0_.phone as phone1_0_, taikhoankh0_.createdTime as createdT8_1_0_, taikhoankh0_.updatedTime as updatedT9_1_0_, taikhoankh0_.type as type1_0_, taikhoankh0_.status as status1_0_, taikhoankh0_.address as address1_0_, taikhoankh0_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac taikhoankh0_ where taikhoankh0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,366 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_MERGE on entity nttt.api.model.TaiKhoanKhaiThac: select taikhoankh0_.id as id1_0_, taikhoankh0_.username as username1_0_, taikhoankh0_.password as password1_0_, taikhoankh0_.partnerName as partnerN4_1_0_, taikhoankh0_.partnerCode as partnerC5_1_0_, taikhoankh0_.email as email1_0_, taikhoankh0_.phone as phone1_0_, taikhoankh0_.createdTime as createdT8_1_0_, taikhoankh0_.updatedTime as updatedT9_1_0_, taikhoankh0_.type as type1_0_, taikhoankh0_.status as status1_0_, taikhoankh0_.address as address1_0_, taikhoankh0_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac taikhoankh0_ where taikhoankh0_.id=?
+[DEBUG] 2019-07-26 10:07:21,367 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_REFRESH on entity nttt.api.model.TaiKhoanKhaiThac: select taikhoankh0_.id as id1_0_, taikhoankh0_.username as username1_0_, taikhoankh0_.password as password1_0_, taikhoankh0_.partnerName as partnerN4_1_0_, taikhoankh0_.partnerCode as partnerC5_1_0_, taikhoankh0_.email as email1_0_, taikhoankh0_.phone as phone1_0_, taikhoankh0_.createdTime as createdT8_1_0_, taikhoankh0_.updatedTime as updatedT9_1_0_, taikhoankh0_.type as type1_0_, taikhoankh0_.status as status1_0_, taikhoankh0_.address as address1_0_, taikhoankh0_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac taikhoankh0_ where taikhoankh0_.id=?
+[DEBUG] 2019-07-26 10:07:21,367 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.SessionUser: select sessionuse0_.id as id0_0_, sessionuse0_.partnerCode as partnerC2_0_0_, sessionuse0_.username as username0_0_, sessionuse0_.sessionKey as sessionKey0_0_, sessionuse0_.expriceTime as expriceT5_0_0_, sessionuse0_.role as role0_0_ from SessionUser sessionuse0_ where sessionuse0_.id=?
+[DEBUG] 2019-07-26 10:07:21,367 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.SessionUser: select sessionuse0_.id as id0_0_, sessionuse0_.partnerCode as partnerC2_0_0_, sessionuse0_.username as username0_0_, sessionuse0_.sessionKey as sessionKey0_0_, sessionuse0_.expriceTime as expriceT5_0_0_, sessionuse0_.role as role0_0_ from SessionUser sessionuse0_ where sessionuse0_.id=?
+[DEBUG] 2019-07-26 10:07:21,367 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.SessionUser: select sessionuse0_.id as id0_0_, sessionuse0_.partnerCode as partnerC2_0_0_, sessionuse0_.username as username0_0_, sessionuse0_.sessionKey as sessionKey0_0_, sessionuse0_.expriceTime as expriceT5_0_0_, sessionuse0_.role as role0_0_ from SessionUser sessionuse0_ where sessionuse0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,367 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.SessionUser: select sessionuse0_.id as id0_0_, sessionuse0_.partnerCode as partnerC2_0_0_, sessionuse0_.username as username0_0_, sessionuse0_.sessionKey as sessionKey0_0_, sessionuse0_.expriceTime as expriceT5_0_0_, sessionuse0_.role as role0_0_ from SessionUser sessionuse0_ where sessionuse0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,368 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.SessionUser: select sessionuse0_.id as id0_0_, sessionuse0_.partnerCode as partnerC2_0_0_, sessionuse0_.username as username0_0_, sessionuse0_.sessionKey as sessionKey0_0_, sessionuse0_.expriceTime as expriceT5_0_0_, sessionuse0_.role as role0_0_ from SessionUser sessionuse0_ where sessionuse0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,368 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_MERGE on entity nttt.api.model.SessionUser: select sessionuse0_.id as id0_0_, sessionuse0_.partnerCode as partnerC2_0_0_, sessionuse0_.username as username0_0_, sessionuse0_.sessionKey as sessionKey0_0_, sessionuse0_.expriceTime as expriceT5_0_0_, sessionuse0_.role as role0_0_ from SessionUser sessionuse0_ where sessionuse0_.id=?
+[DEBUG] 2019-07-26 10:07:21,368 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_REFRESH on entity nttt.api.model.SessionUser: select sessionuse0_.id as id0_0_, sessionuse0_.partnerCode as partnerC2_0_0_, sessionuse0_.username as username0_0_, sessionuse0_.sessionKey as sessionKey0_0_, sessionuse0_.expriceTime as expriceT5_0_0_, sessionuse0_.role as role0_0_ from SessionUser sessionuse0_ where sessionuse0_.id=?
+[DEBUG] 2019-07-26 10:07:21,368 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.LichSuThanhToan: select lichsuthan0_.id as id4_0_, lichsuthan0_.tendangnhap as tendangn2_4_0_, lichsuthan0_.requestCode as requestC3_4_0_, lichsuthan0_.amount as amount4_0_, lichsuthan0_.orderId as orderId4_0_, lichsuthan0_.orderInfo as orderInfo4_0_, lichsuthan0_.orderPayId as orderPayId4_0_, lichsuthan0_.payTransactionNo as payTrans8_4_0_, lichsuthan0_.payDate as payDate4_0_, lichsuthan0_.errorCode as errorCode4_0_, lichsuthan0_.payCenter as payCenter4_0_, lichsuthan0_.partnerCode as partner12_4_0_, lichsuthan0_.serviceId as serviceId4_0_, lichsuthan0_.createdTime as created14_4_0_, lichsuthan0_.billcode as billcode4_0_, lichsuthan0_.accountPay as accountPay4_0_ from LichSuThanhToan lichsuthan0_ where lichsuthan0_.id=?
+[DEBUG] 2019-07-26 10:07:21,369 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.LichSuThanhToan: select lichsuthan0_.id as id4_0_, lichsuthan0_.tendangnhap as tendangn2_4_0_, lichsuthan0_.requestCode as requestC3_4_0_, lichsuthan0_.amount as amount4_0_, lichsuthan0_.orderId as orderId4_0_, lichsuthan0_.orderInfo as orderInfo4_0_, lichsuthan0_.orderPayId as orderPayId4_0_, lichsuthan0_.payTransactionNo as payTrans8_4_0_, lichsuthan0_.payDate as payDate4_0_, lichsuthan0_.errorCode as errorCode4_0_, lichsuthan0_.payCenter as payCenter4_0_, lichsuthan0_.partnerCode as partner12_4_0_, lichsuthan0_.serviceId as serviceId4_0_, lichsuthan0_.createdTime as created14_4_0_, lichsuthan0_.billcode as billcode4_0_, lichsuthan0_.accountPay as accountPay4_0_ from LichSuThanhToan lichsuthan0_ where lichsuthan0_.id=?
+[DEBUG] 2019-07-26 10:07:21,369 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.LichSuThanhToan: select lichsuthan0_.id as id4_0_, lichsuthan0_.tendangnhap as tendangn2_4_0_, lichsuthan0_.requestCode as requestC3_4_0_, lichsuthan0_.amount as amount4_0_, lichsuthan0_.orderId as orderId4_0_, lichsuthan0_.orderInfo as orderInfo4_0_, lichsuthan0_.orderPayId as orderPayId4_0_, lichsuthan0_.payTransactionNo as payTrans8_4_0_, lichsuthan0_.payDate as payDate4_0_, lichsuthan0_.errorCode as errorCode4_0_, lichsuthan0_.payCenter as payCenter4_0_, lichsuthan0_.partnerCode as partner12_4_0_, lichsuthan0_.serviceId as serviceId4_0_, lichsuthan0_.createdTime as created14_4_0_, lichsuthan0_.billcode as billcode4_0_, lichsuthan0_.accountPay as accountPay4_0_ from LichSuThanhToan lichsuthan0_ where lichsuthan0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,369 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.LichSuThanhToan: select lichsuthan0_.id as id4_0_, lichsuthan0_.tendangnhap as tendangn2_4_0_, lichsuthan0_.requestCode as requestC3_4_0_, lichsuthan0_.amount as amount4_0_, lichsuthan0_.orderId as orderId4_0_, lichsuthan0_.orderInfo as orderInfo4_0_, lichsuthan0_.orderPayId as orderPayId4_0_, lichsuthan0_.payTransactionNo as payTrans8_4_0_, lichsuthan0_.payDate as payDate4_0_, lichsuthan0_.errorCode as errorCode4_0_, lichsuthan0_.payCenter as payCenter4_0_, lichsuthan0_.partnerCode as partner12_4_0_, lichsuthan0_.serviceId as serviceId4_0_, lichsuthan0_.createdTime as created14_4_0_, lichsuthan0_.billcode as billcode4_0_, lichsuthan0_.accountPay as accountPay4_0_ from LichSuThanhToan lichsuthan0_ where lichsuthan0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,370 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.LichSuThanhToan: select lichsuthan0_.id as id4_0_, lichsuthan0_.tendangnhap as tendangn2_4_0_, lichsuthan0_.requestCode as requestC3_4_0_, lichsuthan0_.amount as amount4_0_, lichsuthan0_.orderId as orderId4_0_, lichsuthan0_.orderInfo as orderInfo4_0_, lichsuthan0_.orderPayId as orderPayId4_0_, lichsuthan0_.payTransactionNo as payTrans8_4_0_, lichsuthan0_.payDate as payDate4_0_, lichsuthan0_.errorCode as errorCode4_0_, lichsuthan0_.payCenter as payCenter4_0_, lichsuthan0_.partnerCode as partner12_4_0_, lichsuthan0_.serviceId as serviceId4_0_, lichsuthan0_.createdTime as created14_4_0_, lichsuthan0_.billcode as billcode4_0_, lichsuthan0_.accountPay as accountPay4_0_ from LichSuThanhToan lichsuthan0_ where lichsuthan0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,370 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_MERGE on entity nttt.api.model.LichSuThanhToan: select lichsuthan0_.id as id4_0_, lichsuthan0_.tendangnhap as tendangn2_4_0_, lichsuthan0_.requestCode as requestC3_4_0_, lichsuthan0_.amount as amount4_0_, lichsuthan0_.orderId as orderId4_0_, lichsuthan0_.orderInfo as orderInfo4_0_, lichsuthan0_.orderPayId as orderPayId4_0_, lichsuthan0_.payTransactionNo as payTrans8_4_0_, lichsuthan0_.payDate as payDate4_0_, lichsuthan0_.errorCode as errorCode4_0_, lichsuthan0_.payCenter as payCenter4_0_, lichsuthan0_.partnerCode as partner12_4_0_, lichsuthan0_.serviceId as serviceId4_0_, lichsuthan0_.createdTime as created14_4_0_, lichsuthan0_.billcode as billcode4_0_, lichsuthan0_.accountPay as accountPay4_0_ from LichSuThanhToan lichsuthan0_ where lichsuthan0_.id=?
+[DEBUG] 2019-07-26 10:07:21,370 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_REFRESH on entity nttt.api.model.LichSuThanhToan: select lichsuthan0_.id as id4_0_, lichsuthan0_.tendangnhap as tendangn2_4_0_, lichsuthan0_.requestCode as requestC3_4_0_, lichsuthan0_.amount as amount4_0_, lichsuthan0_.orderId as orderId4_0_, lichsuthan0_.orderInfo as orderInfo4_0_, lichsuthan0_.orderPayId as orderPayId4_0_, lichsuthan0_.payTransactionNo as payTrans8_4_0_, lichsuthan0_.payDate as payDate4_0_, lichsuthan0_.errorCode as errorCode4_0_, lichsuthan0_.payCenter as payCenter4_0_, lichsuthan0_.partnerCode as partner12_4_0_, lichsuthan0_.serviceId as serviceId4_0_, lichsuthan0_.createdTime as created14_4_0_, lichsuthan0_.billcode as billcode4_0_, lichsuthan0_.accountPay as accountPay4_0_ from LichSuThanhToan lichsuthan0_ where lichsuthan0_.id=?
+[DEBUG] 2019-07-26 10:07:21,371 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.DichVu: select dichvu0_.id as id2_0_, dichvu0_.name as name2_0_, dichvu0_.icon as icon2_0_, dichvu0_.orderTypeId as orderTyp4_2_0_, dichvu0_.apiGetInfo as apiGetInfo2_0_, dichvu0_.apiUpdateInfo as apiUpdat6_2_0_, dichvu0_.status as status2_0_ from DichVu dichvu0_ where dichvu0_.id=?
+[DEBUG] 2019-07-26 10:07:21,371 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.DichVu: select dichvu0_.id as id2_0_, dichvu0_.name as name2_0_, dichvu0_.icon as icon2_0_, dichvu0_.orderTypeId as orderTyp4_2_0_, dichvu0_.apiGetInfo as apiGetInfo2_0_, dichvu0_.apiUpdateInfo as apiUpdat6_2_0_, dichvu0_.status as status2_0_ from DichVu dichvu0_ where dichvu0_.id=?
+[DEBUG] 2019-07-26 10:07:21,371 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.DichVu: select dichvu0_.id as id2_0_, dichvu0_.name as name2_0_, dichvu0_.icon as icon2_0_, dichvu0_.orderTypeId as orderTyp4_2_0_, dichvu0_.apiGetInfo as apiGetInfo2_0_, dichvu0_.apiUpdateInfo as apiUpdat6_2_0_, dichvu0_.status as status2_0_ from DichVu dichvu0_ where dichvu0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,371 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.DichVu: select dichvu0_.id as id2_0_, dichvu0_.name as name2_0_, dichvu0_.icon as icon2_0_, dichvu0_.orderTypeId as orderTyp4_2_0_, dichvu0_.apiGetInfo as apiGetInfo2_0_, dichvu0_.apiUpdateInfo as apiUpdat6_2_0_, dichvu0_.status as status2_0_ from DichVu dichvu0_ where dichvu0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,372 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.DichVu: select dichvu0_.id as id2_0_, dichvu0_.name as name2_0_, dichvu0_.icon as icon2_0_, dichvu0_.orderTypeId as orderTyp4_2_0_, dichvu0_.apiGetInfo as apiGetInfo2_0_, dichvu0_.apiUpdateInfo as apiUpdat6_2_0_, dichvu0_.status as status2_0_ from DichVu dichvu0_ where dichvu0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,372 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_MERGE on entity nttt.api.model.DichVu: select dichvu0_.id as id2_0_, dichvu0_.name as name2_0_, dichvu0_.icon as icon2_0_, dichvu0_.orderTypeId as orderTyp4_2_0_, dichvu0_.apiGetInfo as apiGetInfo2_0_, dichvu0_.apiUpdateInfo as apiUpdat6_2_0_, dichvu0_.status as status2_0_ from DichVu dichvu0_ where dichvu0_.id=?
+[DEBUG] 2019-07-26 10:07:21,372 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_REFRESH on entity nttt.api.model.DichVu: select dichvu0_.id as id2_0_, dichvu0_.name as name2_0_, dichvu0_.icon as icon2_0_, dichvu0_.orderTypeId as orderTyp4_2_0_, dichvu0_.apiGetInfo as apiGetInfo2_0_, dichvu0_.apiUpdateInfo as apiUpdat6_2_0_, dichvu0_.status as status2_0_ from DichVu dichvu0_ where dichvu0_.id=?
+[DEBUG] 2019-07-26 10:07:21,372 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.ThongTinThanhToan: select thongtinth0_.id as id5_0_, thongtinth0_.payPartnerCode as payPartn2_5_0_, thongtinth0_.payAccessKey as payAcces3_5_0_, thongtinth0_.paySecretKey as paySecre4_5_0_, thongtinth0_.partnerCode as partnerC5_5_0_, thongtinth0_.congThanhToanId as congThan6_5_0_ from ThongTinThanhToan thongtinth0_ where thongtinth0_.id=?
+[DEBUG] 2019-07-26 10:07:21,373 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.ThongTinThanhToan: select thongtinth0_.id as id5_0_, thongtinth0_.payPartnerCode as payPartn2_5_0_, thongtinth0_.payAccessKey as payAcces3_5_0_, thongtinth0_.paySecretKey as paySecre4_5_0_, thongtinth0_.partnerCode as partnerC5_5_0_, thongtinth0_.congThanhToanId as congThan6_5_0_ from ThongTinThanhToan thongtinth0_ where thongtinth0_.id=?
+[DEBUG] 2019-07-26 10:07:21,373 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.ThongTinThanhToan: select thongtinth0_.id as id5_0_, thongtinth0_.payPartnerCode as payPartn2_5_0_, thongtinth0_.payAccessKey as payAcces3_5_0_, thongtinth0_.paySecretKey as paySecre4_5_0_, thongtinth0_.partnerCode as partnerC5_5_0_, thongtinth0_.congThanhToanId as congThan6_5_0_ from ThongTinThanhToan thongtinth0_ where thongtinth0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,373 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.ThongTinThanhToan: select thongtinth0_.id as id5_0_, thongtinth0_.payPartnerCode as payPartn2_5_0_, thongtinth0_.payAccessKey as payAcces3_5_0_, thongtinth0_.paySecretKey as paySecre4_5_0_, thongtinth0_.partnerCode as partnerC5_5_0_, thongtinth0_.congThanhToanId as congThan6_5_0_ from ThongTinThanhToan thongtinth0_ where thongtinth0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,373 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.ThongTinThanhToan: select thongtinth0_.id as id5_0_, thongtinth0_.payPartnerCode as payPartn2_5_0_, thongtinth0_.payAccessKey as payAcces3_5_0_, thongtinth0_.paySecretKey as paySecre4_5_0_, thongtinth0_.partnerCode as partnerC5_5_0_, thongtinth0_.congThanhToanId as congThan6_5_0_ from ThongTinThanhToan thongtinth0_ where thongtinth0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,374 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_MERGE on entity nttt.api.model.ThongTinThanhToan: select thongtinth0_.id as id5_0_, thongtinth0_.payPartnerCode as payPartn2_5_0_, thongtinth0_.payAccessKey as payAcces3_5_0_, thongtinth0_.paySecretKey as paySecre4_5_0_, thongtinth0_.partnerCode as partnerC5_5_0_, thongtinth0_.congThanhToanId as congThan6_5_0_ from ThongTinThanhToan thongtinth0_ where thongtinth0_.id=?
+[DEBUG] 2019-07-26 10:07:21,374 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_REFRESH on entity nttt.api.model.ThongTinThanhToan: select thongtinth0_.id as id5_0_, thongtinth0_.payPartnerCode as payPartn2_5_0_, thongtinth0_.payAccessKey as payAcces3_5_0_, thongtinth0_.paySecretKey as paySecre4_5_0_, thongtinth0_.partnerCode as partnerC5_5_0_, thongtinth0_.congThanhToanId as congThan6_5_0_ from ThongTinThanhToan thongtinth0_ where thongtinth0_.id=?
+[DEBUG] 2019-07-26 10:07:21,374 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.ValidateViettel: select validatevi0_.id as id7_0_, validatevi0_.partnerCode as partnerC2_7_0_, validatevi0_.requestCode as requestC3_7_0_, validatevi0_.amount as amount7_0_, validatevi0_.orderId as orderId7_0_, validatevi0_.orderInfo as orderInfo7_0_, validatevi0_.billcode as billcode7_0_, validatevi0_.payDate as payDate7_0_, validatevi0_.errorCode as errorCode7_0_, validatevi0_.payCenter as payCenter7_0_ from ValidateViettel validatevi0_ where validatevi0_.id=?
+[DEBUG] 2019-07-26 10:07:21,374 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.ValidateViettel: select validatevi0_.id as id7_0_, validatevi0_.partnerCode as partnerC2_7_0_, validatevi0_.requestCode as requestC3_7_0_, validatevi0_.amount as amount7_0_, validatevi0_.orderId as orderId7_0_, validatevi0_.orderInfo as orderInfo7_0_, validatevi0_.billcode as billcode7_0_, validatevi0_.payDate as payDate7_0_, validatevi0_.errorCode as errorCode7_0_, validatevi0_.payCenter as payCenter7_0_ from ValidateViettel validatevi0_ where validatevi0_.id=?
+[DEBUG] 2019-07-26 10:07:21,375 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.ValidateViettel: select validatevi0_.id as id7_0_, validatevi0_.partnerCode as partnerC2_7_0_, validatevi0_.requestCode as requestC3_7_0_, validatevi0_.amount as amount7_0_, validatevi0_.orderId as orderId7_0_, validatevi0_.orderInfo as orderInfo7_0_, validatevi0_.billcode as billcode7_0_, validatevi0_.payDate as payDate7_0_, validatevi0_.errorCode as errorCode7_0_, validatevi0_.payCenter as payCenter7_0_ from ValidateViettel validatevi0_ where validatevi0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,375 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.ValidateViettel: select validatevi0_.id as id7_0_, validatevi0_.partnerCode as partnerC2_7_0_, validatevi0_.requestCode as requestC3_7_0_, validatevi0_.amount as amount7_0_, validatevi0_.orderId as orderId7_0_, validatevi0_.orderInfo as orderInfo7_0_, validatevi0_.billcode as billcode7_0_, validatevi0_.payDate as payDate7_0_, validatevi0_.errorCode as errorCode7_0_, validatevi0_.payCenter as payCenter7_0_ from ValidateViettel validatevi0_ where validatevi0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,375 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.ValidateViettel: select validatevi0_.id as id7_0_, validatevi0_.partnerCode as partnerC2_7_0_, validatevi0_.requestCode as requestC3_7_0_, validatevi0_.amount as amount7_0_, validatevi0_.orderId as orderId7_0_, validatevi0_.orderInfo as orderInfo7_0_, validatevi0_.billcode as billcode7_0_, validatevi0_.payDate as payDate7_0_, validatevi0_.errorCode as errorCode7_0_, validatevi0_.payCenter as payCenter7_0_ from ValidateViettel validatevi0_ where validatevi0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,376 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_MERGE on entity nttt.api.model.ValidateViettel: select validatevi0_.id as id7_0_, validatevi0_.partnerCode as partnerC2_7_0_, validatevi0_.requestCode as requestC3_7_0_, validatevi0_.amount as amount7_0_, validatevi0_.orderId as orderId7_0_, validatevi0_.orderInfo as orderInfo7_0_, validatevi0_.billcode as billcode7_0_, validatevi0_.payDate as payDate7_0_, validatevi0_.errorCode as errorCode7_0_, validatevi0_.payCenter as payCenter7_0_ from ValidateViettel validatevi0_ where validatevi0_.id=?
+[DEBUG] 2019-07-26 10:07:21,376 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_REFRESH on entity nttt.api.model.ValidateViettel: select validatevi0_.id as id7_0_, validatevi0_.partnerCode as partnerC2_7_0_, validatevi0_.requestCode as requestC3_7_0_, validatevi0_.amount as amount7_0_, validatevi0_.orderId as orderId7_0_, validatevi0_.orderInfo as orderInfo7_0_, validatevi0_.billcode as billcode7_0_, validatevi0_.payDate as payDate7_0_, validatevi0_.errorCode as errorCode7_0_, validatevi0_.payCenter as payCenter7_0_ from ValidateViettel validatevi0_ where validatevi0_.id=?
+[DEBUG] 2019-07-26 10:07:21,376 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.CongThanhToan: select congthanht0_.id as id3_0_, congthanht0_.name as name3_0_ from CongThanhToan congthanht0_ where congthanht0_.id=?
+[DEBUG] 2019-07-26 10:07:21,376 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.CongThanhToan: select congthanht0_.id as id3_0_, congthanht0_.name as name3_0_ from CongThanhToan congthanht0_ where congthanht0_.id=?
+[DEBUG] 2019-07-26 10:07:21,376 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.CongThanhToan: select congthanht0_.id as id3_0_, congthanht0_.name as name3_0_ from CongThanhToan congthanht0_ where congthanht0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,377 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.CongThanhToan: select congthanht0_.id as id3_0_, congthanht0_.name as name3_0_ from CongThanhToan congthanht0_ where congthanht0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,377 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.CongThanhToan: select congthanht0_.id as id3_0_, congthanht0_.name as name3_0_ from CongThanhToan congthanht0_ where congthanht0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,377 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_MERGE on entity nttt.api.model.CongThanhToan: select congthanht0_.id as id3_0_, congthanht0_.name as name3_0_ from CongThanhToan congthanht0_ where congthanht0_.id=?
+[DEBUG] 2019-07-26 10:07:21,377 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_REFRESH on entity nttt.api.model.CongThanhToan: select congthanht0_.id as id3_0_, congthanht0_.name as name3_0_ from CongThanhToan congthanht0_ where congthanht0_.id=?
+[DEBUG] 2019-07-26 10:07:21,377 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.TaiKhoanKhaiThacDichVu: select taikhoankh0_.id as id6_0_, taikhoankh0_.serviceId as serviceId6_0_, taikhoankh0_.partnerId as partnerId6_0_ from TaiKhoanKhaiThacDichVu taikhoankh0_ where taikhoankh0_.id=?
+[DEBUG] 2019-07-26 10:07:21,378 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.TaiKhoanKhaiThacDichVu: select taikhoankh0_.id as id6_0_, taikhoankh0_.serviceId as serviceId6_0_, taikhoankh0_.partnerId as partnerId6_0_ from TaiKhoanKhaiThacDichVu taikhoankh0_ where taikhoankh0_.id=?
+[DEBUG] 2019-07-26 10:07:21,378 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.TaiKhoanKhaiThacDichVu: select taikhoankh0_.id as id6_0_, taikhoankh0_.serviceId as serviceId6_0_, taikhoankh0_.partnerId as partnerId6_0_ from TaiKhoanKhaiThacDichVu taikhoankh0_ where taikhoankh0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,378 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.TaiKhoanKhaiThacDichVu: select taikhoankh0_.id as id6_0_, taikhoankh0_.serviceId as serviceId6_0_, taikhoankh0_.partnerId as partnerId6_0_ from TaiKhoanKhaiThacDichVu taikhoankh0_ where taikhoankh0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,378 org.hibernate.loader.entity.EntityLoader <init> - Static select for entity nttt.api.model.TaiKhoanKhaiThacDichVu: select taikhoankh0_.id as id6_0_, taikhoankh0_.serviceId as serviceId6_0_, taikhoankh0_.partnerId as partnerId6_0_ from TaiKhoanKhaiThacDichVu taikhoankh0_ where taikhoankh0_.id=? for update
+[DEBUG] 2019-07-26 10:07:21,378 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_MERGE on entity nttt.api.model.TaiKhoanKhaiThacDichVu: select taikhoankh0_.id as id6_0_, taikhoankh0_.serviceId as serviceId6_0_, taikhoankh0_.partnerId as partnerId6_0_ from TaiKhoanKhaiThacDichVu taikhoankh0_ where taikhoankh0_.id=?
+[DEBUG] 2019-07-26 10:07:21,378 org.hibernate.loader.entity.EntityLoader <init> - Static select for action ACTION_REFRESH on entity nttt.api.model.TaiKhoanKhaiThacDichVu: select taikhoankh0_.id as id6_0_, taikhoankh0_.serviceId as serviceId6_0_, taikhoankh0_.partnerId as partnerId6_0_ from TaiKhoanKhaiThacDichVu taikhoankh0_ where taikhoankh0_.id=?
+[DEBUG] 2019-07-26 10:07:21,380 org.hibernate.impl.SessionFactoryObjectFactory <clinit> - initializing class SessionFactoryObjectFactory
+[DEBUG] 2019-07-26 10:07:21,380 org.hibernate.impl.SessionFactoryObjectFactory addInstance - registered: ff8081816c2c3f4b016c2c3f4ba20000 (unnamed)
+[INFO] 2019-07-26 10:07:21,381 org.hibernate.impl.SessionFactoryObjectFactory addInstance - Not binding factory to JNDI, no JNDI name configured
+[DEBUG] 2019-07-26 10:07:21,381 org.hibernate.impl.SessionFactoryImpl <init> - instantiated session factory
+[DEBUG] 2019-07-26 10:07:21,382 org.hibernate.impl.SessionFactoryImpl checkNamedQueries - Checking 0 named HQL queries
+[DEBUG] 2019-07-26 10:07:21,382 org.hibernate.impl.SessionFactoryImpl checkNamedQueries - Checking 0 named SQL queries
+[DEBUG] 2019-07-26 10:07:21,398 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104413
+[DEBUG] 2019-07-26 10:07:21,399 org.hibernate.transaction.JDBCTransaction begin - begin
+[DEBUG] 2019-07-26 10:07:21,399 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:21,399 org.hibernate.transaction.JDBCTransaction begin - current autocommit status: false
+[DEBUG] 2019-07-26 10:07:21,400 org.hibernate.loader.Loader loadEntity - loading entity: [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:21,401 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:21,401 org.hibernate.SQL log - select taikhoankh0_.id as id1_0_, taikhoankh0_.username as username1_0_, taikhoankh0_.password as password1_0_, taikhoankh0_.partnerName as partnerN4_1_0_, taikhoankh0_.partnerCode as partnerC5_1_0_, taikhoankh0_.email as email1_0_, taikhoankh0_.phone as phone1_0_, taikhoankh0_.createdTime as createdT8_1_0_, taikhoankh0_.updatedTime as updatedT9_1_0_, taikhoankh0_.type as type1_0_, taikhoankh0_.status as status1_0_, taikhoankh0_.address as address1_0_, taikhoankh0_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac taikhoankh0_ where taikhoankh0_.id=?
+[DEBUG] 2019-07-26 10:07:21,426 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:21,426 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:21,429 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:21,429 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:21,430 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:21,432 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:21,433 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:21,434 org.hibernate.loader.Loader loadEntity - done entity load
+[DEBUG] 2019-07-26 10:07:21,434 org.hibernate.transaction.JDBCTransaction commit - commit
+[DEBUG] 2019-07-26 10:07:21,434 org.hibernate.event.def.AbstractFlushingEventListener prepareEntityFlushes - processing flush-time cascades
+[DEBUG] 2019-07-26 10:07:21,436 org.hibernate.event.def.AbstractFlushingEventListener prepareCollectionFlushes - dirty checking collections
+[DEBUG] 2019-07-26 10:07:21,437 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[DEBUG] 2019-07-26 10:07:21,437 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2019-07-26 10:07:21,437 org.hibernate.pretty.Printer toString - listing entities:
+[DEBUG] 2019-07-26 10:07:21,437 org.hibernate.pretty.Printer toString - nttt.api.model.TaiKhoanKhaiThac{updatedTime=0, address=Hà nội, partnerCode=FIS-GMC, partnerName=FIS-GMC, type=1, password=c22a49699ae3600775144ac3c6bcd9ec1cb6618a2688589a3898c8aabf3a2dc0,-85204113, phone=0982663325, accessKey=f53abff08e6433696db0fdbe5e2e1d88f5f6e7624e4cd897db2ded626c0bee9b, createdTime=1560913818257, id=1, email=dongvd3@fpt.com.vn, username=admin, status=1}
+[DEBUG] 2019-07-26 10:07:21,442 org.hibernate.transaction.JDBCTransaction commit - committed JDBC Connection
+[DEBUG] 2019-07-26 10:07:21,442 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:21,442 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:24,949 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104449
+[DEBUG] 2019-07-26 10:07:24,955 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:24,955 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:24,955 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:24,960 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:24,960 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:24,960 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:24,960 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:24,961 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:24,961 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:24,968 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104449
+[DEBUG] 2019-07-26 10:07:24,968 org.hibernate.transaction.JDBCTransaction begin - begin
+[DEBUG] 2019-07-26 10:07:24,968 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:24,968 org.hibernate.transaction.JDBCTransaction begin - current autocommit status: false
+[DEBUG] 2019-07-26 10:07:24,968 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:24,968 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_
+[DEBUG] 2019-07-26 10:07:24,971 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:24,972 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#200]
+[DEBUG] 2019-07-26 10:07:24,973 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#214]
+[DEBUG] 2019-07-26 10:07:24,973 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#232]
+[DEBUG] 2019-07-26 10:07:24,974 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:24,975 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:24,975 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#200]
+[DEBUG] 2019-07-26 10:07:24,975 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#200]
+[DEBUG] 2019-07-26 10:07:24,975 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#214]
+[DEBUG] 2019-07-26 10:07:24,975 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#214]
+[DEBUG] 2019-07-26 10:07:24,975 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#232]
+[DEBUG] 2019-07-26 10:07:24,975 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#232]
+[DEBUG] 2019-07-26 10:07:24,975 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:24,982 org.hibernate.transaction.JDBCTransaction commit - commit
+[DEBUG] 2019-07-26 10:07:24,982 org.hibernate.event.def.AbstractFlushingEventListener prepareEntityFlushes - processing flush-time cascades
+[DEBUG] 2019-07-26 10:07:24,982 org.hibernate.event.def.AbstractFlushingEventListener prepareCollectionFlushes - dirty checking collections
+[DEBUG] 2019-07-26 10:07:24,982 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 insertions, 0 updates, 3 deletions to 3 objects
+[DEBUG] 2019-07-26 10:07:24,982 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2019-07-26 10:07:24,982 org.hibernate.pretty.Printer toString - listing entities:
+[DEBUG] 2019-07-26 10:07:24,983 org.hibernate.pretty.Printer toString - nttt.api.model.SessionUser{expriceTime=1563441483767, role=0, partnerCode=000.00.46.H29, sessionKey=7ecnjF4JLNstaxiMjfnA8shRCZny4BPXU+fccOeT7zI=, id=200, username=hcm_quan1}
+[DEBUG] 2019-07-26 10:07:24,983 org.hibernate.pretty.Printer toString - nttt.api.model.SessionUser{expriceTime=1564196734545, role=1, partnerCode=FIS-GMC, sessionKey=HsY3vjordrIw8L00Q60xrW7BaVsci3Fepm/fS8oTUbo=, id=232, username=admin}
+[DEBUG] 2019-07-26 10:07:24,983 org.hibernate.pretty.Printer toString - nttt.api.model.SessionUser{expriceTime=1563615753996, role=0, partnerCode=000.00.58.H29, sessionKey=WQpP42LpOLvTsGG/kG7U3A4rsYwLx6x5HJWljWJi/1k=, id=214, username=hcm_binhtan}
+[DEBUG] 2019-07-26 10:07:24,984 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:24,984 org.hibernate.SQL log - delete from SessionUser where id=?
+[DEBUG] 2019-07-26 10:07:24,985 org.hibernate.jdbc.AbstractBatcher prepareBatchStatement - reusing prepared statement
+[DEBUG] 2019-07-26 10:07:24,985 org.hibernate.SQL log - delete from SessionUser where id=?
+[DEBUG] 2019-07-26 10:07:24,985 org.hibernate.jdbc.AbstractBatcher prepareBatchStatement - reusing prepared statement
+[DEBUG] 2019-07-26 10:07:24,985 org.hibernate.SQL log - delete from SessionUser where id=?
+[DEBUG] 2019-07-26 10:07:24,986 org.hibernate.jdbc.AbstractBatcher doExecuteBatch - Executing batch size: 3
+[DEBUG] 2019-07-26 10:07:24,989 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:24,991 org.hibernate.transaction.JDBCTransaction commit - committed JDBC Connection
+[DEBUG] 2019-07-26 10:07:24,991 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:24,991 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:25,497 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104454
+[DEBUG] 2019-07-26 10:07:25,499 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:25,499 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:25,501 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:25,505 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:25,505 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:25,505 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:25,506 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:25,508 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:25,508 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:25,517 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104455
+[DEBUG] 2019-07-26 10:07:25,518 org.hibernate.transaction.JDBCTransaction begin - begin
+[DEBUG] 2019-07-26 10:07:25,518 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:25,518 org.hibernate.transaction.JDBCTransaction begin - current autocommit status: false
+[DEBUG] 2019-07-26 10:07:25,519 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:25,519 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_
+[DEBUG] 2019-07-26 10:07:25,523 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:25,523 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:25,524 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:25,524 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:25,524 org.hibernate.transaction.JDBCTransaction commit - commit
+[DEBUG] 2019-07-26 10:07:25,526 org.hibernate.transaction.JDBCTransaction commit - committed JDBC Connection
+[DEBUG] 2019-07-26 10:07:25,526 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:25,526 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:31,466 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104514
+[DEBUG] 2019-07-26 10:07:31,466 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,466 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:31,466 org.hibernate.SQL log - select this_.id as id1_0_, this_.username as username1_0_, this_.password as password1_0_, this_.partnerName as partnerN4_1_0_, this_.partnerCode as partnerC5_1_0_, this_.email as email1_0_, this_.phone as phone1_0_, this_.createdTime as createdT8_1_0_, this_.updatedTime as updatedT9_1_0_, this_.type as type1_0_, this_.status as status1_0_, this_.address as address1_0_, this_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac this_ where this_.username=? limit ?
+[DEBUG] 2019-07-26 10:07:31,474 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,474 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:31,475 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,476 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,476 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:31,476 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:31,476 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:31,477 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:31,477 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:31,529 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104515
+[DEBUG] 2019-07-26 10:07:31,529 org.hibernate.transaction.JDBCTransaction begin - begin
+[DEBUG] 2019-07-26 10:07:31,529 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:31,529 org.hibernate.transaction.JDBCTransaction begin - current autocommit status: false
+[DEBUG] 2019-07-26 10:07:31,530 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,530 org.hibernate.SQL log - select nextval ('session_id_sequence')
+[DEBUG] 2019-07-26 10:07:31,538 org.hibernate.id.SequenceGenerator generate - Sequence identifier generated: 233
+[DEBUG] 2019-07-26 10:07:31,538 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,539 org.hibernate.event.def.AbstractSaveEventListener saveWithGeneratedId - generated identifier: 233, using strategy: org.hibernate.id.SequenceGenerator
+[DEBUG] 2019-07-26 10:07:31,541 org.hibernate.transaction.JDBCTransaction commit - commit
+[DEBUG] 2019-07-26 10:07:31,541 org.hibernate.event.def.AbstractFlushingEventListener prepareEntityFlushes - processing flush-time cascades
+[DEBUG] 2019-07-26 10:07:31,541 org.hibernate.event.def.AbstractFlushingEventListener prepareCollectionFlushes - dirty checking collections
+[DEBUG] 2019-07-26 10:07:31,541 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+[DEBUG] 2019-07-26 10:07:31,542 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2019-07-26 10:07:31,542 org.hibernate.pretty.Printer toString - listing entities:
+[DEBUG] 2019-07-26 10:07:31,542 org.hibernate.pretty.Printer toString - nttt.api.model.SessionUser{expriceTime=1564196851487, role=1, partnerCode=FIS-GMC, sessionKey=B1lriac+Mml40e6p4DjEkb8nAWx0PGpTWpYBHj0I7+A=, id=233, username=admin}
+[DEBUG] 2019-07-26 10:07:31,542 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,542 org.hibernate.SQL log - insert into SessionUser (partnerCode, username, sessionKey, expriceTime, role, id) values (?, ?, ?, ?, ?, ?)
+[DEBUG] 2019-07-26 10:07:31,543 org.hibernate.jdbc.AbstractBatcher doExecuteBatch - Executing batch size: 1
+[DEBUG] 2019-07-26 10:07:31,551 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,561 org.hibernate.transaction.JDBCTransaction commit - committed JDBC Connection
+[DEBUG] 2019-07-26 10:07:31,562 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:31,562 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:31,591 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104515
+[DEBUG] 2019-07-26 10:07:31,593 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,593 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:31,594 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:31,600 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,601 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:31,601 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,602 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,603 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:31,603 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:31,603 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:31,603 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:31,603 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:31,888 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104518
+[DEBUG] 2019-07-26 10:07:31,890 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,892 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:31,893 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:31,895 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104518
+[DEBUG] 2019-07-26 10:07:31,896 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,896 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:31,896 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:31,897 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,897 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:31,897 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,897 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 2)
+[DEBUG] 2019-07-26 10:07:31,897 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:31,898 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:31,898 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:31,898 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:31,898 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 1) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:31,899 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,900 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:31,900 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,900 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,900 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:31,900 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:31,902 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:31,902 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:31,902 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:31,904 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104519
+[DEBUG] 2019-07-26 10:07:31,905 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,906 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:31,907 org.hibernate.SQL log - select this_.id as id1_0_, this_.username as username1_0_, this_.password as password1_0_, this_.partnerName as partnerN4_1_0_, this_.partnerCode as partnerC5_1_0_, this_.email as email1_0_, this_.phone as phone1_0_, this_.createdTime as createdT8_1_0_, this_.updatedTime as updatedT9_1_0_, this_.type as type1_0_, this_.status as status1_0_, this_.address as address1_0_, this_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac this_ where this_.partnerCode=? limit ?
+[DEBUG] 2019-07-26 10:07:31,911 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,912 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:31,912 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,912 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,912 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:31,912 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:31,913 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:31,913 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:31,913 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:31,915 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104519
+[DEBUG] 2019-07-26 10:07:31,916 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,916 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:31,916 org.hibernate.SQL log - select this_.id as id1_0_, this_.username as username1_0_, this_.password as password1_0_, this_.partnerName as partnerN4_1_0_, this_.partnerCode as partnerC5_1_0_, this_.email as email1_0_, this_.phone as phone1_0_, this_.createdTime as createdT8_1_0_, this_.updatedTime as updatedT9_1_0_, this_.type as type1_0_, this_.status as status1_0_, this_.address as address1_0_, this_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac this_ where this_.username like ?
+[DEBUG] 2019-07-26 10:07:31,919 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,920 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#11]
+[DEBUG] 2019-07-26 10:07:31,920 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#12]
+[DEBUG] 2019-07-26 10:07:31,921 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#7]
+[DEBUG] 2019-07-26 10:07:31,921 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#8]
+[DEBUG] 2019-07-26 10:07:31,921 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#2]
+[DEBUG] 2019-07-26 10:07:31,922 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:31,922 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#26]
+[DEBUG] 2019-07-26 10:07:31,922 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#5]
+[DEBUG] 2019-07-26 10:07:31,922 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#9]
+[DEBUG] 2019-07-26 10:07:31,922 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#10]
+[DEBUG] 2019-07-26 10:07:31,923 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#27]
+[DEBUG] 2019-07-26 10:07:31,923 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,923 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,923 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#11]
+[DEBUG] 2019-07-26 10:07:31,924 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#11]
+[DEBUG] 2019-07-26 10:07:31,924 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#12]
+[DEBUG] 2019-07-26 10:07:31,924 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#12]
+[DEBUG] 2019-07-26 10:07:31,925 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#7]
+[DEBUG] 2019-07-26 10:07:31,925 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#7]
+[DEBUG] 2019-07-26 10:07:31,925 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#8]
+[DEBUG] 2019-07-26 10:07:31,926 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#8]
+[DEBUG] 2019-07-26 10:07:31,926 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#2]
+[DEBUG] 2019-07-26 10:07:31,927 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#2]
+[DEBUG] 2019-07-26 10:07:31,927 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:31,927 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:31,927 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#26]
+[DEBUG] 2019-07-26 10:07:31,927 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#26]
+[DEBUG] 2019-07-26 10:07:31,927 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#5]
+[DEBUG] 2019-07-26 10:07:31,927 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#5]
+[DEBUG] 2019-07-26 10:07:31,927 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#9]
+[DEBUG] 2019-07-26 10:07:31,927 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#9]
+[DEBUG] 2019-07-26 10:07:31,927 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#10]
+[DEBUG] 2019-07-26 10:07:31,928 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#10]
+[DEBUG] 2019-07-26 10:07:31,928 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#27]
+[DEBUG] 2019-07-26 10:07:31,928 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#27]
+[DEBUG] 2019-07-26 10:07:31,928 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:31,928 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:31,928 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:31,931 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,931 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:31,932 org.hibernate.SQL log - select count(*) as y0_ from TaiKhoanKhaiThac this_ where this_.username like ?
+[DEBUG] 2019-07-26 10:07:31,935 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:31,935 org.hibernate.loader.Loader getRow - result row: 
+[DEBUG] 2019-07-26 10:07:31,936 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,936 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:31,936 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:31,936 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:31,936 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:33,422 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104534
+[DEBUG] 2019-07-26 10:07:33,424 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:33,425 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:33,425 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:33,432 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:33,432 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:33,434 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:33,434 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:33,435 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:33,435 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:33,435 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:33,435 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:33,435 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:33,582 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104535
+[DEBUG] 2019-07-26 10:07:33,583 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:33,583 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:33,584 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:33,585 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104535
+[DEBUG] 2019-07-26 10:07:33,585 org.hibernate.transaction.JDBCTransaction begin - begin
+[DEBUG] 2019-07-26 10:07:33,585 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:33,586 org.hibernate.transaction.JDBCTransaction begin - current autocommit status: false
+[DEBUG] 2019-07-26 10:07:33,586 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 1)
+[DEBUG] 2019-07-26 10:07:33,586 org.hibernate.SQL log - select this_.id as id3_0_, this_.name as name3_0_ from CongThanhToan this_ limit ?
+[DEBUG] 2019-07-26 10:07:33,592 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:33,592 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:33,593 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:33,593 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 2)
+[DEBUG] 2019-07-26 10:07:33,593 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:33,593 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:33,593 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:33,593 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:33,593 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 1) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:33,593 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:33,593 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:33,594 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:33,594 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:33,594 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:33,594 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:33,594 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:33,595 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:33,595 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:33,595 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:33,595 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:33,595 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:33,595 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:33,596 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:33,596 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:33,596 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:33,596 org.hibernate.event.def.AbstractFlushingEventListener prepareEntityFlushes - processing flush-time cascades
+[DEBUG] 2019-07-26 10:07:33,596 org.hibernate.event.def.AbstractFlushingEventListener prepareCollectionFlushes - dirty checking collections
+[DEBUG] 2019-07-26 10:07:33,596 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+[DEBUG] 2019-07-26 10:07:33,597 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2019-07-26 10:07:33,597 org.hibernate.pretty.Printer toString - listing entities:
+[DEBUG] 2019-07-26 10:07:33,597 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=viettelpay, id=4}
+[DEBUG] 2019-07-26 10:07:33,597 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=momo, id=2}
+[DEBUG] 2019-07-26 10:07:33,597 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=napas, id=3}
+[DEBUG] 2019-07-26 10:07:33,597 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=vnpay, id=1}
+[DEBUG] 2019-07-26 10:07:33,597 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:33,597 org.hibernate.SQL log - select count(*) as y0_ from CongThanhToan this_ limit ?
+[DEBUG] 2019-07-26 10:07:33,603 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104536
+[DEBUG] 2019-07-26 10:07:33,605 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 1)
+[DEBUG] 2019-07-26 10:07:33,605 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:33,605 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:33,607 org.hibernate.loader.Loader getRow - result row: 
+[DEBUG] 2019-07-26 10:07:33,607 org.hibernate.SQL log - select this_.id as id1_0_, this_.username as username1_0_, this_.password as password1_0_, this_.partnerName as partnerN4_1_0_, this_.partnerCode as partnerC5_1_0_, this_.email as email1_0_, this_.phone as phone1_0_, this_.createdTime as createdT8_1_0_, this_.updatedTime as updatedT9_1_0_, this_.type as type1_0_, this_.status as status1_0_, this_.address as address1_0_, this_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac this_ where this_.partnerCode=? limit ?
+[DEBUG] 2019-07-26 10:07:33,607 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:33,607 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 2)
+[DEBUG] 2019-07-26 10:07:33,607 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:33,608 org.hibernate.transaction.JDBCTransaction commit - commit
+[DEBUG] 2019-07-26 10:07:33,608 org.hibernate.event.def.AbstractFlushingEventListener prepareEntityFlushes - processing flush-time cascades
+[DEBUG] 2019-07-26 10:07:33,608 org.hibernate.event.def.AbstractFlushingEventListener prepareCollectionFlushes - dirty checking collections
+[DEBUG] 2019-07-26 10:07:33,608 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+[DEBUG] 2019-07-26 10:07:33,608 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2019-07-26 10:07:33,608 org.hibernate.pretty.Printer toString - listing entities:
+[DEBUG] 2019-07-26 10:07:33,608 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=viettelpay, id=4}
+[DEBUG] 2019-07-26 10:07:33,608 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=momo, id=2}
+[DEBUG] 2019-07-26 10:07:33,609 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=napas, id=3}
+[DEBUG] 2019-07-26 10:07:33,609 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=vnpay, id=1}
+[DEBUG] 2019-07-26 10:07:33,616 org.hibernate.transaction.JDBCTransaction commit - committed JDBC Connection
+[DEBUG] 2019-07-26 10:07:33,616 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:33,616 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 1) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:33,616 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:33,617 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:33,618 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:33,618 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:33,618 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:33,618 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:33,619 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:33,619 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:33,619 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:35,833 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104558
+[DEBUG] 2019-07-26 10:07:35,834 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:35,834 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:35,835 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:35,839 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:35,840 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:35,840 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:35,840 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:35,840 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:35,841 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:35,841 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:35,841 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:35,841 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:36,045 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104560
+[DEBUG] 2019-07-26 10:07:36,045 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:36,045 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104560
+[DEBUG] 2019-07-26 10:07:36,045 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:36,045 org.hibernate.transaction.JDBCTransaction begin - begin
+[DEBUG] 2019-07-26 10:07:36,046 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:36,046 org.hibernate.transaction.JDBCTransaction begin - current autocommit status: false
+[DEBUG] 2019-07-26 10:07:36,046 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 1)
+[DEBUG] 2019-07-26 10:07:36,046 org.hibernate.SQL log - select this_.id as id3_0_, this_.name as name3_0_ from CongThanhToan this_ limit ?
+[DEBUG] 2019-07-26 10:07:36,046 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:36,056 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:36,056 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:36,056 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:36,056 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:36,057 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 2)
+[DEBUG] 2019-07-26 10:07:36,057 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 2)
+[DEBUG] 2019-07-26 10:07:36,057 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:36,057 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:36,057 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:36,057 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:36,057 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:36,057 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:36,057 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:36,058 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:36,058 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:36,058 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 1) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:36,058 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:36,058 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:36,058 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:36,058 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:36,058 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:36,058 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:36,058 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:36,059 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:36,059 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:36,059 org.hibernate.event.def.AbstractFlushingEventListener prepareEntityFlushes - processing flush-time cascades
+[DEBUG] 2019-07-26 10:07:36,059 org.hibernate.event.def.AbstractFlushingEventListener prepareCollectionFlushes - dirty checking collections
+[DEBUG] 2019-07-26 10:07:36,060 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+[DEBUG] 2019-07-26 10:07:36,061 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2019-07-26 10:07:36,061 org.hibernate.pretty.Printer toString - listing entities:
+[DEBUG] 2019-07-26 10:07:36,061 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=viettelpay, id=4}
+[DEBUG] 2019-07-26 10:07:36,061 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=momo, id=2}
+[DEBUG] 2019-07-26 10:07:36,061 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=napas, id=3}
+[DEBUG] 2019-07-26 10:07:36,061 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=vnpay, id=1}
+[DEBUG] 2019-07-26 10:07:36,062 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:36,062 org.hibernate.SQL log - select count(*) as y0_ from CongThanhToan this_ limit ?
+[DEBUG] 2019-07-26 10:07:36,065 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104560
+[DEBUG] 2019-07-26 10:07:36,066 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 1)
+[DEBUG] 2019-07-26 10:07:36,067 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:36,067 org.hibernate.SQL log - select this_.id as id1_0_, this_.username as username1_0_, this_.password as password1_0_, this_.partnerName as partnerN4_1_0_, this_.partnerCode as partnerC5_1_0_, this_.email as email1_0_, this_.phone as phone1_0_, this_.createdTime as createdT8_1_0_, this_.updatedTime as updatedT9_1_0_, this_.type as type1_0_, this_.status as status1_0_, this_.address as address1_0_, this_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac this_ where this_.partnerCode=? limit ?
+[DEBUG] 2019-07-26 10:07:36,067 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:36,067 org.hibernate.loader.Loader getRow - result row: 
+[DEBUG] 2019-07-26 10:07:36,067 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:36,067 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 2)
+[DEBUG] 2019-07-26 10:07:36,067 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:36,067 org.hibernate.transaction.JDBCTransaction commit - commit
+[DEBUG] 2019-07-26 10:07:36,068 org.hibernate.event.def.AbstractFlushingEventListener prepareEntityFlushes - processing flush-time cascades
+[DEBUG] 2019-07-26 10:07:36,068 org.hibernate.event.def.AbstractFlushingEventListener prepareCollectionFlushes - dirty checking collections
+[DEBUG] 2019-07-26 10:07:36,069 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+[DEBUG] 2019-07-26 10:07:36,070 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2019-07-26 10:07:36,070 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:36,070 org.hibernate.pretty.Printer toString - listing entities:
+[DEBUG] 2019-07-26 10:07:36,072 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:36,072 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=viettelpay, id=4}
+[DEBUG] 2019-07-26 10:07:36,072 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=momo, id=2}
+[DEBUG] 2019-07-26 10:07:36,072 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=napas, id=3}
+[DEBUG] 2019-07-26 10:07:36,072 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=vnpay, id=1}
+[DEBUG] 2019-07-26 10:07:36,072 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:36,073 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:36,073 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:36,074 org.hibernate.transaction.JDBCTransaction commit - committed JDBC Connection
+[DEBUG] 2019-07-26 10:07:36,074 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:36,074 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:36,076 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:36,077 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:36,077 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:36,077 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:36,960 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104569
+[DEBUG] 2019-07-26 10:07:36,962 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:36,962 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:36,963 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:36,968 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:36,969 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:36,969 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:36,969 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:36,969 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:36,969 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:36,969 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:36,970 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:36,970 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:37,166 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104571
+[DEBUG] 2019-07-26 10:07:37,167 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,167 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104571
+[DEBUG] 2019-07-26 10:07:37,168 org.hibernate.transaction.JDBCTransaction begin - begin
+[DEBUG] 2019-07-26 10:07:37,168 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:37,167 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:37,168 org.hibernate.transaction.JDBCTransaction begin - current autocommit status: false
+[DEBUG] 2019-07-26 10:07:37,168 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:37,168 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,169 org.hibernate.SQL log - select this_.id as id3_0_, this_.name as name3_0_ from CongThanhToan this_ limit ?
+[DEBUG] 2019-07-26 10:07:37,174 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,174 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,174 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:37,174 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 2)
+[DEBUG] 2019-07-26 10:07:37,175 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 2)
+[DEBUG] 2019-07-26 10:07:37,175 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:37,176 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:37,174 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:37,176 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:37,177 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:37,177 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:37,177 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:37,177 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 1) (open ResultSets: 0, globally: 1)]
+[DEBUG] 2019-07-26 10:07:37,177 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:37,177 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,178 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,178 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:37,178 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:37,178 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:37,179 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:37,181 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:37,182 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:37,183 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:37,184 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:37,184 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:37,184 org.hibernate.event.def.AbstractFlushingEventListener prepareEntityFlushes - processing flush-time cascades
+[DEBUG] 2019-07-26 10:07:37,184 org.hibernate.event.def.AbstractFlushingEventListener prepareCollectionFlushes - dirty checking collections
+[DEBUG] 2019-07-26 10:07:37,185 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+[DEBUG] 2019-07-26 10:07:37,185 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2019-07-26 10:07:37,185 org.hibernate.pretty.Printer toString - listing entities:
+[DEBUG] 2019-07-26 10:07:37,185 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=viettelpay, id=4}
+[DEBUG] 2019-07-26 10:07:37,185 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=momo, id=2}
+[DEBUG] 2019-07-26 10:07:37,185 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=napas, id=3}
+[DEBUG] 2019-07-26 10:07:37,185 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=vnpay, id=1}
+[DEBUG] 2019-07-26 10:07:37,186 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,186 org.hibernate.SQL log - select count(*) as y0_ from CongThanhToan this_ limit ?
+[DEBUG] 2019-07-26 10:07:37,186 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104571
+[DEBUG] 2019-07-26 10:07:37,187 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,187 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:37,187 org.hibernate.SQL log - select this_.id as id1_0_, this_.username as username1_0_, this_.password as password1_0_, this_.partnerName as partnerN4_1_0_, this_.partnerCode as partnerC5_1_0_, this_.email as email1_0_, this_.phone as phone1_0_, this_.createdTime as createdT8_1_0_, this_.updatedTime as updatedT9_1_0_, this_.type as type1_0_, this_.status as status1_0_, this_.address as address1_0_, this_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac this_ where this_.partnerCode=? limit ?
+[DEBUG] 2019-07-26 10:07:37,194 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,195 org.hibernate.loader.Loader getRow - result row: 
+[DEBUG] 2019-07-26 10:07:37,195 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,195 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 2)
+[DEBUG] 2019-07-26 10:07:37,195 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:37,195 org.hibernate.transaction.JDBCTransaction commit - commit
+[DEBUG] 2019-07-26 10:07:37,195 org.hibernate.event.def.AbstractFlushingEventListener prepareEntityFlushes - processing flush-time cascades
+[DEBUG] 2019-07-26 10:07:37,196 org.hibernate.event.def.AbstractFlushingEventListener prepareCollectionFlushes - dirty checking collections
+[DEBUG] 2019-07-26 10:07:37,197 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+[DEBUG] 2019-07-26 10:07:37,198 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2019-07-26 10:07:37,198 org.hibernate.pretty.Printer toString - listing entities:
+[DEBUG] 2019-07-26 10:07:37,198 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=viettelpay, id=4}
+[DEBUG] 2019-07-26 10:07:37,198 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=momo, id=2}
+[DEBUG] 2019-07-26 10:07:37,199 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=napas, id=3}
+[DEBUG] 2019-07-26 10:07:37,199 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=vnpay, id=1}
+[DEBUG] 2019-07-26 10:07:37,205 org.hibernate.transaction.JDBCTransaction commit - committed JDBC Connection
+[DEBUG] 2019-07-26 10:07:37,205 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:37,205 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 1) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:37,532 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,533 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:37,534 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,534 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,534 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:37,535 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:37,535 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:37,536 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:37,536 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:37,749 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104577
+[DEBUG] 2019-07-26 10:07:37,751 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,751 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:37,753 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:37,756 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,756 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:37,757 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,757 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,757 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:37,757 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:37,757 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:37,757 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:37,757 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:37,895 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104578
+[DEBUG] 2019-07-26 10:07:37,895 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104578
+[DEBUG] 2019-07-26 10:07:37,895 org.hibernate.transaction.JDBCTransaction begin - begin
+[DEBUG] 2019-07-26 10:07:37,895 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,897 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:37,896 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:37,897 org.hibernate.SQL log - select this_.id as id0_0_, this_.partnerCode as partnerC2_0_0_, this_.username as username0_0_, this_.sessionKey as sessionKey0_0_, this_.expriceTime as expriceT5_0_0_, this_.role as role0_0_ from SessionUser this_ where this_.sessionKey=? limit ?
+[DEBUG] 2019-07-26 10:07:37,897 org.hibernate.transaction.JDBCTransaction begin - current autocommit status: false
+[DEBUG] 2019-07-26 10:07:37,898 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,898 org.hibernate.SQL log - select this_.id as id3_0_, this_.name as name3_0_ from CongThanhToan this_ limit ?
+[DEBUG] 2019-07-26 10:07:37,903 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,903 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:37,903 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,904 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 2)
+[DEBUG] 2019-07-26 10:07:37,904 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:37,904 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,904 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.SessionUser#233]
+[DEBUG] 2019-07-26 10:07:37,904 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:37,904 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:37,904 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:37,904 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:37,904 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 1) (open ResultSets: 0, globally: 1)]
+[DEBUG] 2019-07-26 10:07:37,904 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:37,905 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:37,905 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,905 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,905 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:37,905 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#1]
+[DEBUG] 2019-07-26 10:07:37,906 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:37,906 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#2]
+[DEBUG] 2019-07-26 10:07:37,906 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:37,906 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#3]
+[DEBUG] 2019-07-26 10:07:37,906 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:37,906 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.CongThanhToan#4]
+[DEBUG] 2019-07-26 10:07:37,906 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:37,906 org.hibernate.event.def.AbstractFlushingEventListener prepareEntityFlushes - processing flush-time cascades
+[DEBUG] 2019-07-26 10:07:37,907 org.hibernate.event.def.AbstractFlushingEventListener prepareCollectionFlushes - dirty checking collections
+[DEBUG] 2019-07-26 10:07:37,907 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+[DEBUG] 2019-07-26 10:07:37,907 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2019-07-26 10:07:37,907 org.hibernate.pretty.Printer toString - listing entities:
+[DEBUG] 2019-07-26 10:07:37,907 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=viettelpay, id=4}
+[DEBUG] 2019-07-26 10:07:37,907 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=momo, id=2}
+[DEBUG] 2019-07-26 10:07:37,907 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=napas, id=3}
+[DEBUG] 2019-07-26 10:07:37,908 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=vnpay, id=1}
+[DEBUG] 2019-07-26 10:07:37,908 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,909 org.hibernate.SQL log - select count(*) as y0_ from CongThanhToan this_ limit ?
+[DEBUG] 2019-07-26 10:07:37,910 org.hibernate.impl.SessionImpl <init> - opened session at timestamp: 15641104579
+[DEBUG] 2019-07-26 10:07:37,910 org.hibernate.jdbc.AbstractBatcher logOpenPreparedStatement - about to open PreparedStatement (open PreparedStatements: 0, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,911 org.hibernate.jdbc.ConnectionManager openConnection - opening JDBC connection
+[DEBUG] 2019-07-26 10:07:37,911 org.hibernate.SQL log - select this_.id as id1_0_, this_.username as username1_0_, this_.password as password1_0_, this_.partnerName as partnerN4_1_0_, this_.partnerCode as partnerC5_1_0_, this_.email as email1_0_, this_.phone as phone1_0_, this_.createdTime as createdT8_1_0_, this_.updatedTime as updatedT9_1_0_, this_.type as type1_0_, this_.status as status1_0_, this_.address as address1_0_, this_.accessKey as accessKey1_0_ from TaiKhoanKhaiThac this_ where this_.partnerCode=? limit ?
+[DEBUG] 2019-07-26 10:07:37,911 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,911 org.hibernate.loader.Loader getRow - result row: 
+[DEBUG] 2019-07-26 10:07:37,911 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,912 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 2)
+[DEBUG] 2019-07-26 10:07:37,912 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:37,913 org.hibernate.transaction.JDBCTransaction commit - commit
+[DEBUG] 2019-07-26 10:07:37,913 org.hibernate.event.def.AbstractFlushingEventListener prepareEntityFlushes - processing flush-time cascades
+[DEBUG] 2019-07-26 10:07:37,913 org.hibernate.jdbc.AbstractBatcher logOpenResults - about to open ResultSet (open ResultSets: 0, globally: 0)
+[DEBUG] 2019-07-26 10:07:37,913 org.hibernate.event.def.AbstractFlushingEventListener prepareCollectionFlushes - dirty checking collections
+[DEBUG] 2019-07-26 10:07:37,914 org.hibernate.loader.Loader getRow - result row: EntityKey[nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:37,914 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+[DEBUG] 2019-07-26 10:07:37,914 org.hibernate.event.def.AbstractFlushingEventListener flushEverythingToExecutions - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2019-07-26 10:07:37,914 org.hibernate.jdbc.AbstractBatcher logCloseResults - about to close ResultSet (open ResultSets: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,914 org.hibernate.pretty.Printer toString - listing entities:
+[DEBUG] 2019-07-26 10:07:37,914 org.hibernate.jdbc.AbstractBatcher logClosePreparedStatement - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[DEBUG] 2019-07-26 10:07:37,914 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=viettelpay, id=4}
+[DEBUG] 2019-07-26 10:07:37,915 org.hibernate.engine.TwoPhaseLoad initializeEntity - resolving associations for [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:37,915 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=momo, id=2}
+[DEBUG] 2019-07-26 10:07:37,915 org.hibernate.engine.TwoPhaseLoad initializeEntity - done materializing entity [nttt.api.model.TaiKhoanKhaiThac#1]
+[DEBUG] 2019-07-26 10:07:37,915 org.hibernate.engine.StatefulPersistenceContext initializeNonLazyCollections - initializing non-lazy collections
+[DEBUG] 2019-07-26 10:07:37,915 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=napas, id=3}
+[DEBUG] 2019-07-26 10:07:37,915 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:37,915 org.hibernate.pretty.Printer toString - nttt.api.model.CongThanhToan{name=vnpay, id=1}
+[DEBUG] 2019-07-26 10:07:37,915 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+[DEBUG] 2019-07-26 10:07:37,918 org.hibernate.transaction.JDBCTransaction commit - committed JDBC Connection
+[DEBUG] 2019-07-26 10:07:37,918 org.hibernate.jdbc.ConnectionManager aggressiveRelease - aggressively releasing JDBC connection
+[DEBUG] 2019-07-26 10:07:37,919 org.hibernate.jdbc.ConnectionManager closeConnection - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]

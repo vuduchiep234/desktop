@@ -4,19 +4,63 @@
 	<title>Document</title>
 
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-	<div class="main">
-		<div id="form_login" class="form_login">
-			
-		</div>
-	</div>
+	<div class="container" style="margin: 4% auto;">
+            <div class="row">
+                <h3>Demo</h3>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="row" style="float: right; margin-right: 1%; margin-bottom: 1%;">
+                        <input class="btn btn-success" type="submit" value="Add" />
+                    </div>
+
+
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="text-center">ID</th>
+                                <th scope="col" class="text-center">Name</th>
+
+                                <th scope="col" class="text-center">Edit</th>
+                                <th scope="col" class="text-center">Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td class="text-center">Mark</td>
+                                <td class="text-center">Otto</td>
+                                <td class="text-center">
+                                    <a  href="#" ><i class="ace-icon fa fa-pencil bigger-130" aria-hidden="true"></i></a>
+                                </td>
+                                <td class="text-center text-red">
+                                    <a class="text-danger" href="#" data-type="delete-author" data-toggle="modal">
+								         <span class="ace-icon fa fa-trash-o bigger-130"></span>
+                                    </a>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
 	
+
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,180 @@
+ INFO [main] 2019-07-18 16:26:51,755 ServiceDaemon.java (line 23) This is info message
+ WARN [main] 2019-07-18 16:26:51,758 ServiceDaemon.java (line 24) This is warn message
+FATAL [main] 2019-07-18 16:26:51,758 ServiceDaemon.java (line 25) This is fatal message
+ERROR [main] 2019-07-18 16:26:51,758 ServiceDaemon.java (line 26) This is error message
+ INFO [qtp1688901776-20] 2019-07-18 17:06:07,746 Environment.java (line 514) Hibernate 3.2.6
+ INFO [qtp1688901776-20] 2019-07-18 17:06:07,749 Environment.java (line 547) hibernate.properties not found
+ INFO [qtp1688901776-20] 2019-07-18 17:06:07,751 Environment.java (line 681) Bytecode provider name : cglib
+ INFO [qtp1688901776-20] 2019-07-18 17:06:07,756 Environment.java (line 598) using JDK 1.4 java.sql.Timestamp handling
+ INFO [qtp1688901776-20] 2019-07-18 17:06:07,806 Configuration.java (line 1432) configuring from resource: nttt/api/configdb/hibernate.cfg.xml
+ INFO [qtp1688901776-20] 2019-07-18 17:06:07,807 Configuration.java (line 1409) Configuration resource: nttt/api/configdb/hibernate.cfg.xml
+ INFO [qtp1688901776-20] 2019-07-18 17:06:07,914 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/Session.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,039 HbmBinder.java (line 300) Mapping class: nttt.api.model.SessionUser -> SessionUser
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,054 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/TaiKhoanKhaiThac.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,133 HbmBinder.java (line 300) Mapping class: nttt.api.model.TaiKhoanKhaiThac -> TaiKhoanKhaiThac
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,135 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/DichVu.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,172 HbmBinder.java (line 300) Mapping class: nttt.api.model.DichVu -> DichVu
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,176 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/CongThanhToan.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,197 HbmBinder.java (line 300) Mapping class: nttt.api.model.CongThanhToan -> CongThanhToan
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,200 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/LichSuThanhToan.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,227 HbmBinder.java (line 300) Mapping class: nttt.api.model.LichSuThanhToan -> LichSuThanhToan
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,230 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/ThongTinThanhToan.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,268 HbmBinder.java (line 300) Mapping class: nttt.api.model.ThongTinThanhToan -> ThongTinThanhToan
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,270 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/TaiKhoanKhaiThacDichVu.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,287 HbmBinder.java (line 300) Mapping class: nttt.api.model.TaiKhoanKhaiThacDichVu -> TaiKhoanKhaiThacDichVu
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,288 Configuration.java (line 1547) Configured SessionFactory: null
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,348 ConnectionProviderFactory.java (line 72) Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,352 C3P0ConnectionProvider.java (line 81) C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://10.14.142.15:5434/LGSP_PAYMENT
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,352 C3P0ConnectionProvider.java (line 82) Connection properties: {useUnicode=true, user=postgres, password=****, CharSet=utf8, characterEncoding=utf8, zeroDateTimeBehavior=convertToNull}
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,352 C3P0ConnectionProvider.java (line 85) autocommit mode: false
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,950 SettingsFactory.java (line 89) RDBMS: PostgreSQL, version: 9.4.20
+ INFO [qtp1688901776-20] 2019-07-18 17:06:08,951 SettingsFactory.java (line 90) JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.2 JDBC4.1 (build 1004)
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,096 Dialect.java (line 152) Using dialect: nttt.api.configdb.PostgreSQLDialect
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,100 TransactionFactoryFactory.java (line 31) Using default transaction strategy (direct JDBC transactions)
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,103 TransactionManagerLookupFactory.java (line 33) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,103 SettingsFactory.java (line 143) Automatic flush during beforeCompletion(): disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,104 SettingsFactory.java (line 147) Automatic session close at end of transaction: disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,104 SettingsFactory.java (line 154) JDBC batch size: 15
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,104 SettingsFactory.java (line 157) JDBC batch updates for versioned data: disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,105 SettingsFactory.java (line 162) Scrollable result sets: enabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,105 SettingsFactory.java (line 170) JDBC3 getGeneratedKeys(): disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,106 SettingsFactory.java (line 178) Connection release mode: auto
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,107 SettingsFactory.java (line 205) Default batch fetch size: 1
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,109 SettingsFactory.java (line 209) Generate SQL with comments: disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,111 SettingsFactory.java (line 213) Order SQL updates by primary key: disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,113 SettingsFactory.java (line 217) Order SQL inserts for batching: disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,114 SettingsFactory.java (line 386) Query translator: org.hibernate.hql.classic.ClassicQueryTranslatorFactory
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,115 SettingsFactory.java (line 225) Query language substitutions: {}
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,116 SettingsFactory.java (line 230) JPA-QL strict compliance: disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,116 SettingsFactory.java (line 235) Second-level cache: enabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,116 SettingsFactory.java (line 239) Query cache: disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,116 SettingsFactory.java (line 373) Cache provider: org.hibernate.cache.NoCacheProvider
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,117 SettingsFactory.java (line 254) Optimize cache for minimal puts: disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,117 SettingsFactory.java (line 263) Structured second-level cache entries: disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,119 SettingsFactory.java (line 283) Echoing all SQL to stdout
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,120 SettingsFactory.java (line 290) Statistics: disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,120 SettingsFactory.java (line 294) Deleted entity synthetic identifier rollback: disabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,120 SettingsFactory.java (line 309) Default entity-mode: pojo
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,121 SettingsFactory.java (line 313) Named query checking : enabled
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,151 SessionFactoryImpl.java (line 161) building session factory
+ INFO [qtp1688901776-20] 2019-07-18 17:06:09,454 SessionFactoryObjectFactory.java (line 82) Not binding factory to JNDI, no JNDI name configured
+ INFO [main] 2019-07-19 13:51:06,060 ServiceDaemon.java (line 23) This is info message
+ WARN [main] 2019-07-19 13:51:06,067 ServiceDaemon.java (line 24) This is warn message
+FATAL [main] 2019-07-19 13:51:06,067 ServiceDaemon.java (line 25) This is fatal message
+ERROR [main] 2019-07-19 13:51:06,067 ServiceDaemon.java (line 26) This is error message
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,558 Environment.java (line 514) Hibernate 3.2.6
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,561 Environment.java (line 547) hibernate.properties not found
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,564 Environment.java (line 681) Bytecode provider name : cglib
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,568 Environment.java (line 598) using JDK 1.4 java.sql.Timestamp handling
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,594 Configuration.java (line 1432) configuring from resource: nttt/api/configdb/hibernate.cfg.xml
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,594 Configuration.java (line 1409) Configuration resource: nttt/api/configdb/hibernate.cfg.xml
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,696 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/Session.hbm.xml
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,762 HbmBinder.java (line 300) Mapping class: nttt.api.model.SessionUser -> SessionUser
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,769 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/TaiKhoanKhaiThac.hbm.xml
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,797 HbmBinder.java (line 300) Mapping class: nttt.api.model.TaiKhoanKhaiThac -> TaiKhoanKhaiThac
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,800 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/DichVu.hbm.xml
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,812 HbmBinder.java (line 300) Mapping class: nttt.api.model.DichVu -> DichVu
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,817 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/CongThanhToan.hbm.xml
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,834 HbmBinder.java (line 300) Mapping class: nttt.api.model.CongThanhToan -> CongThanhToan
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,835 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/LichSuThanhToan.hbm.xml
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,852 HbmBinder.java (line 300) Mapping class: nttt.api.model.LichSuThanhToan -> LichSuThanhToan
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,853 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/ThongTinThanhToan.hbm.xml
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,861 HbmBinder.java (line 300) Mapping class: nttt.api.model.ThongTinThanhToan -> ThongTinThanhToan
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,862 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/TaiKhoanKhaiThacDichVu.hbm.xml
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,872 HbmBinder.java (line 300) Mapping class: nttt.api.model.TaiKhoanKhaiThacDichVu -> TaiKhoanKhaiThacDichVu
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,872 Configuration.java (line 1547) Configured SessionFactory: null
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,908 ConnectionProviderFactory.java (line 72) Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,915 C3P0ConnectionProvider.java (line 81) C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://10.14.142.15:5434/LGSP_PAYMENT
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,915 C3P0ConnectionProvider.java (line 82) Connection properties: {useUnicode=true, user=postgres, password=****, CharSet=utf8, characterEncoding=utf8, zeroDateTimeBehavior=convertToNull}
+ INFO [qtp1688901776-18] 2019-07-19 13:51:08,915 C3P0ConnectionProvider.java (line 85) autocommit mode: false
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,339 SettingsFactory.java (line 89) RDBMS: PostgreSQL, version: 9.4.20
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,340 SettingsFactory.java (line 90) JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.2 JDBC4.1 (build 1004)
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,427 Dialect.java (line 152) Using dialect: nttt.api.configdb.PostgreSQLDialect
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,435 TransactionFactoryFactory.java (line 31) Using default transaction strategy (direct JDBC transactions)
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,438 TransactionManagerLookupFactory.java (line 33) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,439 SettingsFactory.java (line 143) Automatic flush during beforeCompletion(): disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,440 SettingsFactory.java (line 147) Automatic session close at end of transaction: disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,440 SettingsFactory.java (line 154) JDBC batch size: 15
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,441 SettingsFactory.java (line 157) JDBC batch updates for versioned data: disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,442 SettingsFactory.java (line 162) Scrollable result sets: enabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,444 SettingsFactory.java (line 170) JDBC3 getGeneratedKeys(): disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,444 SettingsFactory.java (line 178) Connection release mode: auto
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,447 SettingsFactory.java (line 205) Default batch fetch size: 1
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,448 SettingsFactory.java (line 209) Generate SQL with comments: disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,449 SettingsFactory.java (line 213) Order SQL updates by primary key: disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,449 SettingsFactory.java (line 217) Order SQL inserts for batching: disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,450 SettingsFactory.java (line 386) Query translator: org.hibernate.hql.classic.ClassicQueryTranslatorFactory
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,456 SettingsFactory.java (line 225) Query language substitutions: {}
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,458 SettingsFactory.java (line 230) JPA-QL strict compliance: disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,459 SettingsFactory.java (line 235) Second-level cache: enabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,460 SettingsFactory.java (line 239) Query cache: disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,462 SettingsFactory.java (line 373) Cache provider: org.hibernate.cache.NoCacheProvider
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,464 SettingsFactory.java (line 254) Optimize cache for minimal puts: disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,465 SettingsFactory.java (line 263) Structured second-level cache entries: disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,474 SettingsFactory.java (line 283) Echoing all SQL to stdout
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,474 SettingsFactory.java (line 290) Statistics: disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,475 SettingsFactory.java (line 294) Deleted entity synthetic identifier rollback: disabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,475 SettingsFactory.java (line 309) Default entity-mode: pojo
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,476 SettingsFactory.java (line 313) Named query checking : enabled
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,527 SessionFactoryImpl.java (line 161) building session factory
+ INFO [qtp1688901776-18] 2019-07-19 13:51:09,754 SessionFactoryObjectFactory.java (line 82) Not binding factory to JNDI, no JNDI name configured
+ INFO [main] 2019-07-19 14:50:49,191 ServiceDaemon.java (line 23) This is info message
+ WARN [main] 2019-07-19 14:50:49,194 ServiceDaemon.java (line 24) This is warn message
+FATAL [main] 2019-07-19 14:50:49,194 ServiceDaemon.java (line 25) This is fatal message
+ERROR [main] 2019-07-19 14:50:49,195 ServiceDaemon.java (line 26) This is error message
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,396 Environment.java (line 514) Hibernate 3.2.6
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,399 Environment.java (line 547) hibernate.properties not found
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,401 Environment.java (line 681) Bytecode provider name : cglib
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,402 Environment.java (line 598) using JDK 1.4 java.sql.Timestamp handling
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,430 Configuration.java (line 1432) configuring from resource: nttt/api/configdb/hibernate.cfg.xml
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,430 Configuration.java (line 1409) Configuration resource: nttt/api/configdb/hibernate.cfg.xml
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,478 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/Session.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,526 HbmBinder.java (line 300) Mapping class: nttt.api.model.SessionUser -> SessionUser
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,532 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/TaiKhoanKhaiThac.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,549 HbmBinder.java (line 300) Mapping class: nttt.api.model.TaiKhoanKhaiThac -> TaiKhoanKhaiThac
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,550 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/DichVu.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,562 HbmBinder.java (line 300) Mapping class: nttt.api.model.DichVu -> DichVu
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,565 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/CongThanhToan.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,572 HbmBinder.java (line 300) Mapping class: nttt.api.model.CongThanhToan -> CongThanhToan
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,575 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/LichSuThanhToan.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,582 HbmBinder.java (line 300) Mapping class: nttt.api.model.LichSuThanhToan -> LichSuThanhToan
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,583 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/ThongTinThanhToan.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,588 HbmBinder.java (line 300) Mapping class: nttt.api.model.ThongTinThanhToan -> ThongTinThanhToan
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,589 Configuration.java (line 559) Reading mappings from resource : nttt/api/configdb/TaiKhoanKhaiThacDichVu.hbm.xml
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,596 HbmBinder.java (line 300) Mapping class: nttt.api.model.TaiKhoanKhaiThacDichVu -> TaiKhoanKhaiThacDichVu
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,596 Configuration.java (line 1547) Configured SessionFactory: null
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,628 ConnectionProviderFactory.java (line 72) Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,632 C3P0ConnectionProvider.java (line 81) C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://10.14.142.15:5434/LGSP_PAYMENT
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,632 C3P0ConnectionProvider.java (line 82) Connection properties: {useUnicode=true, user=postgres, password=****, CharSet=utf8, characterEncoding=utf8, zeroDateTimeBehavior=convertToNull}
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,632 C3P0ConnectionProvider.java (line 85) autocommit mode: false
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,981 SettingsFactory.java (line 89) RDBMS: PostgreSQL, version: 9.4.20
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,981 SettingsFactory.java (line 90) JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.2 JDBC4.1 (build 1004)
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,995 Dialect.java (line 152) Using dialect: nttt.api.configdb.PostgreSQLDialect
+ INFO [qtp1688901776-20] 2019-07-19 14:53:03,999 TransactionFactoryFactory.java (line 31) Using default transaction strategy (direct JDBC transactions)
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,002 TransactionManagerLookupFactory.java (line 33) No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,002 SettingsFactory.java (line 143) Automatic flush during beforeCompletion(): disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,002 SettingsFactory.java (line 147) Automatic session close at end of transaction: disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,003 SettingsFactory.java (line 154) JDBC batch size: 15
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,003 SettingsFactory.java (line 157) JDBC batch updates for versioned data: disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,004 SettingsFactory.java (line 162) Scrollable result sets: enabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,004 SettingsFactory.java (line 170) JDBC3 getGeneratedKeys(): disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,004 SettingsFactory.java (line 178) Connection release mode: auto
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,005 SettingsFactory.java (line 205) Default batch fetch size: 1
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,005 SettingsFactory.java (line 209) Generate SQL with comments: disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,005 SettingsFactory.java (line 213) Order SQL updates by primary key: disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,005 SettingsFactory.java (line 217) Order SQL inserts for batching: disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,006 SettingsFactory.java (line 386) Query translator: org.hibernate.hql.classic.ClassicQueryTranslatorFactory
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,008 SettingsFactory.java (line 225) Query language substitutions: {}
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,008 SettingsFactory.java (line 230) JPA-QL strict compliance: disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,009 SettingsFactory.java (line 235) Second-level cache: enabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,009 SettingsFactory.java (line 239) Query cache: disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,009 SettingsFactory.java (line 373) Cache provider: org.hibernate.cache.NoCacheProvider
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,009 SettingsFactory.java (line 254) Optimize cache for minimal puts: disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,010 SettingsFactory.java (line 263) Structured second-level cache entries: disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,013 SettingsFactory.java (line 283) Echoing all SQL to stdout
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,013 SettingsFactory.java (line 290) Statistics: disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,013 SettingsFactory.java (line 294) Deleted entity synthetic identifier rollback: disabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,014 SettingsFactory.java (line 309) Default entity-mode: pojo
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,014 SettingsFactory.java (line 313) Named query checking : enabled
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,037 SessionFactoryImpl.java (line 161) building session factory
+ INFO [qtp1688901776-20] 2019-07-19 14:53:04,187 SessionFactoryObjectFactory.java (line 82) Not binding factory to JNDI, no JNDI name configured

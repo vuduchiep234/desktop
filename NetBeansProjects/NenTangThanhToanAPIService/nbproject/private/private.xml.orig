@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+<<<<<<< working copy
+            <file>file:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/src/nttt/api/controller/VNPAYController.java</file>
+            <file>file:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/src/nttt/api/configuration/ConfigVNPAY.java</file>
+            <file>file:/home/anbq/workplace/LGSP/NenTangThanhToanAPIService/src/nttt/api/controller/ObjectController.java</file>
+=======
+            <file>file:/home/vu/Workplace/LGSP/NenTangThanhToanAPIService/src/nttt/api/model/DichVu.java</file>
+            <file>file:/home/vu/Workplace/LGSP/NenTangThanhToanAPIService/src/nttt/api/service/ObjectService.java</file>
+            <file>file:/home/vu/Workplace/LGSP/NenTangThanhToanAPIService/src/nttt/api/configdb/DichVu.hbm.xml</file>
+            <file>file:/home/vu/Workplace/LGSP/NenTangThanhToanAPIService/src/nttt/api/conectordb/ObjectCollections.java</file>
+            <file>file:/home/vu/Workplace/LGSP/NenTangThanhToanAPIService/src/nttt/api/configdb/hibernate.cfg.xml</file>
+>>>>>>> destination
+        </group>
+    </open-files>
+</project-private>

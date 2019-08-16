@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"classpath://nttt/api/configdb/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="nttt.api.model.TaiKhoanKhaiThac" table="TaiKhoanKhaiThac" dynamic-update="true">
+    
+        <meta attribute = "class-description">
+            This class contains the sesion detail. 
+        </meta>  
+      
+        <id name="id" type = "int" column = "id">
+            <generator class="sequence">
+                <param name="sequence">tai_khoan_khai_thac_id_sequence</param>
+            </generator>
+        </id>
+        <property name="username" type="java.lang.String" unique="true">
+            <column name="username"/>
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="password"/>
+        </property> 
+        <property name="partnerName" type="java.lang.String">
+            <column name="partnerName"/>
+        </property>
+        <property name="partnerCode" type="java.lang.String">
+            <column name="partnerCode"/>
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="email"/>
+        </property>
+        <property name="phone" type="java.lang.String">
+            <column name="phone"/>
+        </property>
+        <property name="createdTime" type="long">
+            <column name="createdTime"/>
+        </property>
+        <property name="updatedTime" type="long">
+            <column name="updatedTime"/>
+        </property>
+        <property name="type" type="int">
+            <column name="type"/>
+        </property>
+        <property name="status" type="int">
+            <column name="status"/>
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="address"/>
+        </property>
+        <property name="accessKey" type="java.lang.String">
+            <column name="accessKey"/>
+        </property>
+    </class>
+</hibernate-mapping>

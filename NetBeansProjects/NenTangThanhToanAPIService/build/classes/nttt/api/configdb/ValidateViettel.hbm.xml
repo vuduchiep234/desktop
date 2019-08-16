@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="nttt.api.model.ValidateViettel" table="ValidateViettel" dynamic-update="true">
+        
+        <meta attribute = "class-description">
+            This class contains the sesion detail. 
+        </meta>  
+
+        <id name="id" type = "int" column = "id">
+            <generator class="sequence">
+                <param name="sequence">validate_viettel_id_sequence</param>
+            </generator>
+        </id>
+        <property name="partnerCode" type="java.lang.String">
+            <column name="partnerCode"/>
+        </property> 
+        <property name="requestCode" type="java.lang.String">
+            <column name="requestCode"/>
+        </property>
+        <property name="amount" type="long">
+            <column name="amount"/>
+        </property> 
+        <property name="orderId" type="java.lang.String">
+            <column name="orderId"/>
+        </property>
+        <property name="orderInfo" type="java.lang.String">
+            <column name="orderInfo"/>
+        </property>
+        <property name="billcode" type="java.lang.String">
+            <column name="billcode"/>
+        </property>
+        <property name="payDate" type="long">
+            <column name="payDate"/>
+        </property>
+        <property name="errorCode" type="java.lang.String">
+            <column name="errorCode"/>
+        </property>
+        <property name="payCenter" type="java.lang.String">
+            <column name="payCenter"/>
+        </property>
+    </class>
+</hibernate-mapping>

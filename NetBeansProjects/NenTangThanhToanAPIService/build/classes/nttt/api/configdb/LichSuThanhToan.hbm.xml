@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="nttt.api.model.LichSuThanhToan" table="LichSuThanhToan" dynamic-update="true">
+        
+        <meta attribute = "class-description">
+            This class contains the sesion detail. 
+        </meta>  
+
+        <id name="id" type = "int" column = "id">
+            <generator class="sequence">
+                <param name="sequence">lich_su_thanh_toan_id_sequence</param>
+            </generator>
+        </id>
+        <property name="tenDangNhap" type="java.lang.String">
+            <column name="tendangnhap"/>
+        </property> 
+        <property name="requestCode" type="java.lang.String">
+            <column name="requestCode"/>
+        </property>
+        <property name="amount" type="long">
+            <column name="amount"/>
+        </property> 
+        <property name="orderId" type="java.lang.String">
+            <column name="orderId"/>
+        </property>
+        <property name="orderInfo" type="java.lang.String">
+            <column name="orderInfo"/>
+        </property>
+        <property name="orderPayId" type="java.lang.String">
+            <column name="orderPayId"/>
+        </property>
+        <property name="payTransactionNo" type="long">
+            <column name="payTransactionNo"/>
+        </property>
+        <property name="payDate" type="long">
+            <column name="payDate"/>
+        </property>
+        <property name="errorCode" type="java.lang.String">
+            <column name="errorCode"/>
+        </property>
+        <property name="payCenter" type="java.lang.String">
+            <column name="payCenter"/>
+        </property>
+        <property name="partnerCode" type="java.lang.String">
+            <column name="partnerCode"/>
+        </property>
+        <property name="serviceId" type="int">
+            <column name="serviceId"/>
+        </property>
+        <property name="createdTime" type="long">
+            <column name="createdTime"/>
+        </property>
+        <property name="billcode" type="java.lang.String">
+            <column name="billcode"/>
+        </property>
+        <property name="accountPay" type="java.lang.String">
+            <column name="accountPay"/>
+        </property>
+    </class>
+</hibernate-mapping>
